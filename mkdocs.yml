@@ -1,0 +1,85 @@
+site_name: SAVANT FRAMEWORK — Constitutional Documentation
+site_description: Constitutional documentation for the SAVANT FRAMEWORK — SPOS, SIP, S50, CLAI-OS, AEGIS-NG, and AEGIS-GLOBAL. Authored by Dr. Christabel Odeta.
+site_author: Dr. Christabel Odeta
+site_url: https://docs.savantframework.com/
+docs_dir: docs
+copyright: Copyright &copy; 2026 Dr. Christabel Odeta — SAVANT FRAMEWORK &middot; CLAI-OS &middot; AEGIS-GLOBAL
+
+# PDF export note:
+# This site is designed for print/PDF export. All diagrams are ASCII; all data
+# is tabular. Use the browser print stylesheet (Material's built-in print
+# support) or a plugin such as mkdocs-with-pdf / mkdocs-print-site-plugin.
+# No plugin is required for the canonical HTML build; strict mode passes clean.
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate          # dark mode default, per constitutional style
+    primary: blue grey
+    accent: teal
+  font:
+    text: Fira Code        # falls back to system monospace stack
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.action.view
+    - content.code.copy
+  # Deliberately omitted: announce bars, social cards, feedback widgets,
+  # analytics, and all other marketing instrumentation.
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\.)(?P<dot>\.)'
+  # Optional for PDF builds (commented out; install separately if required):
+  # - with-pdf:
+  #     output_path: savant-framework-constitutional-documentation.pdf
+  #     cover_title: SAVANT FRAMEWORK — Constitutional Documentation
+  #     author: Dr. Christabel Odeta
+
+extra:
+  generator: false   # do not advertise the generator
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - SPOS v1.0 — Sovereign Prompt Operating System: architecture/spos-v1.0.md
+      - SIP v1.0 — Sovereign Invocation Protocol: architecture/sip-v1.0.md
+      - S50-ABSOLUTE — Governance Engine: architecture/s50-absolute.md
+  - CLAI-OS:
+      - Deterministic Clinical Engine: clai-os/deterministic-engine.md
+      - FHIR R4 Native Resource Layer: clai-os/fhir-r4-native.md
+  - AEGIS-NG:
+      - Node Types (N-A01 – N-D02): aegis-ng/node-types.md
+      - 433 MHz LoRa Mesh Protocol: aegis-ng/mesh-protocol.md
+  - AEGIS-GLOBAL:
+      - Manufacturing & China Sourcing Specification: aegis-global/manufacturing-spec.md
+      - Local Engineer Certification Curriculum: aegis-global/curriculum.md
+  - Grants:
+      - Universal Grant Narrative Template: grants/universal-narrative.md
+  - Compliance:
+      - P61–P70 Regional Compliance Adapters: compliance/P61-P70.md
