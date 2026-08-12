@@ -50,6 +50,21 @@ Where this archive depends on a canonical registry held elsewhere — the LCSC p
 
 ---
 
+## Canonical Presence
+
+| Surface | URL | Role |
+|---|---|---|
+| GitHub organization | [github.com/SAVANT-FRAMEWORK](https://github.com/SAVANT-FRAMEWORK) | Source of truth — all seven canonical repositories |
+| LinkedIn (Dr. Odeta) | [linkedin.com/in/dr-christabel-odeta-82b98193](https://www.linkedin.com/in/dr-christabel-odeta-82b98193) | The architect's voice — authorship claims, credentials |
+| YouTube | [youtube.com/@savantframework](https://youtube.com/@savantframework) | Demo premieres, governance walkthroughs |
+| Instagram | [instagram.com/savantframework](https://www.instagram.com/savantframework) | Diagram-led visual artifacts |
+
+Division of labor (canonical, per phase-6 presence specification): claims about the
+architecture's falsifiability or governance are made on personal surfaces; the evidence
+is published on institutional surfaces. Never reversed.
+
+---
+
 ## Falsifiability Test
 
 **Claim:** This archive is complete, governed, and transferable.
