@@ -1,6 +1,6 @@
 ---
 title: AEGIS-GLOBAL — Local Engineer Certification Curriculum
-description: Capacity transfer as the architect's only revenue — $975 per certified engineer, delivered in six languages.
+description: Capacity transfer as the architect's only revenue — $975 per certified engineer, delivered in multiple languages.
 ---
 
 # AEGIS-GLOBAL — Local Engineer Certification Curriculum
@@ -12,11 +12,11 @@ description: Capacity transfer as the architect's only revenue — $975 per cert
 
 ---
 
-## 1. Constitutional Framing: Training Is the Only Revenue
+## 1. Constitutional: Training Is the Only Revenue
 
 The AEGIS-GLOBAL commercial model contains exactly one revenue line for the architect: **certification training at $975 per engineer**. There are no hardware margins, no per-unit royalties, no licensing rents on deployed nodes, and no recurring platform fees. This is a deliberate constitutional decision, and it is stated at the top of this document because it explains everything below it.
 
-The reasoning is structural. A hardware margin makes the architect's interest diverge from the operator's: every node sold is revenue, so the architect benefits from dependency — from replacement cycles, proprietary spares, and knowledge asymmetry. A training-only model aligns the architect's interest with *capacity transfer*: revenue exists precisely when an engineer no longer needs the architect. The architect is paid once, at the moment dependency ends. This is the capacity-building frame, and it is not rhetoric — it is the only line on the invoice.
+The reasoning is structural. A hardware margin makes the architect's interest diverge from the operator's: every node sold is revenue, so the architect benefits from dependency, from replacement cycles, proprietary spares, and knowledge asymmetry. A training-only model aligns the architect's interest with *capacity transfer*: revenue exists precisely when an engineer no longer needs the architect. The architect is paid once, at the moment dependency ends. This is the capacity-building frame, and it is not rhetoric, it is the only line on the invoice.
 
 Consequences: the [Manufacturing Specification](manufacturing-spec.md) is complete and openly readable; the BOM is honestly marked rather than obscured; and the curriculum below teaches *everything* required to manufacture, deploy, and maintain the node family without recourse to the architect.
 
@@ -58,9 +58,9 @@ Competence: take a built node from blank silicon to manifest-complete.
 
 Competence: deploy a working mesh tier in real terrain.
 
-- Survey discipline: binding beacon location at deployment (no GPS on beacons — location is surveyed, signed into the manifest, never radio-negotiated)
+- Survey discipline: binding beacon location at deployment (no GPS on beacons,location is surveyed, signed into the manifest, never radio-negotiated)
 - Mast work and antenna installation; reading the link budget ([Mesh Protocol §4](../aegis-ng/mesh-protocol.md)) and applying the terrain allowance
-- Tier discipline: placing relays and hubs, verifying attestation chains, commissioning store-and-forward paths
+- Tier discipline: placing relays and hubs, verifying attestation chains, commissioning store and forward paths
 - Solar siting: irradiance, shading, seasonal allowance
 - **Gate:** candidate team deploys a three-beacon, one-relay, one-hub cell that passes the Group A and Group B field falsifiability tests.
 
@@ -87,11 +87,12 @@ Competence: act as an independent QC authority over manufactured or repaired uni
 
 All five gates re-verified under observation on unfamiliar units. Certification is issued per candidate with a signed record; the register of certified engineers is itself a governed artifact (S50 class C), because a credential that can be forged is worse than none.
 
-## 4. Multi-Language Delivery
+## 4. Multi-Language Delivery 
 
-The curriculum is delivered in **English, Hausa, Fulfulde, Igbo, Yoruba, and Efik**. This is a delivery requirement, not a courtesy: an engineer who must translate instruction mentally while holding a soldering iron is an engineer being trained worse.
+The curriculum is delivered in **English, French,
+Hausa, igbo, yoruba and other major international languages. This is a delivery requirement, not a courtesy: an engineer who must translate instruction mentally while holding a soldering iron is an engineer being trained worse.
 
-- All instructional materials, station cards, and gate checklists exist in all six languages; translations are versioned artifacts and are regression-checked like any other governed document — a translated checklist that drops a step is a class-C defect.
+- All instructional materials, station cards, and gate checklists exist in all six languages; translations are versioned artifacts and are regression checked like any other governed document — a translated checklist that drops a step is a class-C defect.
 - Instructors are recruited from prior cohorts wherever possible, so that instruction in each language is delivered by an engineer, not an interpreter.
 - Assessment is language-neutral by construction: it is practical. The gates in §3 are demonstrated, not described.
 
@@ -100,14 +101,14 @@ The curriculum is delivered in **English, Hausa, Fulfulde, Igbo, Yoruba, and Efi
 Literacy is not a certification prerequisite, because the competences being certified are manual and procedural, and because excluding low-literacy candidates would exclude exactly the field technicians the program exists to create.
 
 - **No written examination.** All gates are demonstrations judged against observable criteria.
-- **Pictographic station cards.** Every procedure has a wordless sequential-card form (numbered, illustrated steps) alongside its text form; the two forms are regression-checked against each other so the pictographic version can never silently drop a step.
+- **Pictographic station cards.** Every procedure has a wordless sequential card form (numbered, illustrated steps) alongside its text form; the two forms are regression-checked against each other so the pictographic version can never silently drop a step.
 - **Oral-first instruction with demonstration pairing.** Every concept is shown before it is named; candidates perform each operation alongside the instructor before performing it alone.
 - **Memory scaffolding.** Hash verification, manifest chaining, and QC sequences are taught as fixed physical routines (point, read aloud, compare, mark) that do not require reading comprehension to execute correctly.
-- **Honesty of the adaptation.** Where a task genuinely requires text (reading a registry part number, verifying a hash string), the candidate is taught the *minimum sufficient literacy* for that exact task — recognizing the marked import cell, matching characters — rather than being waived past the safety-critical content. Adaptation lowers the entry barrier; it never lowers the gate.
+- **Honesty of the adaptation.** Where a task genuinely requires text (reading a registry part number, verifying a hash string), the candidate is taught the *minimum sufficient literacy* for that exact task which is recognizing the marked import cell, matching characters — rather than being waived past the safety-critical content. Adaptation lowers the entry barrier; it never lowers the gate.
 
 ## 6. Economics of the Model, Stated Plainly
 
-A cohort of 16 engineers yields $15,600 in training revenue — the entirety of the architect's income from that cohort, forever. The cohort's output — assembled nodes, deployed cells, maintained networks, QC authority — belongs to the operators and their sovereign partners. If the system works, the architect trains herself out of every deployment. That is not a risk to the model. That is the model.
+A cohort of 16 engineers yields $15,600 in training revenue. It is the entirety of the architect's income from that cohort, forever. The cohort's output assembled nodes, deployed cells, maintained networks, QC authority belongs to the operators and their sovereign partners. 
 
 ---
 
@@ -119,4 +120,4 @@ A cohort of 16 engineers yields $15,600 in training revenue — the entirety of 
 
 **Test 2 (revenue exclusivity):** Audit the program's invoices and procurement flows for any deployment. If any line item beyond the $975 certification fee accrues to the architect — hardware margin, royalty, platform fee, "support subscription" — §1 is falsified and the misstatement is a class-A defect against every grant narrative that cited the capacity-building frame.
 
-**Test 3 (low-literacy honesty):** Certify a low-literacy candidate cohort by the pictographic/oral pathway, then independently re-run their QC judgments (Module 5 gate) on seeded units. If the pass rate diverges materially from literate cohorts, the adaptation is lowering the gate rather than the barrier — §5 is falsified.
+**Test 3 (low-literacy honesty):** Certify a low literacy candidate cohort by the pictographic/oral pathway, then independently re-run their QC judgments (Module 5 gate) on seeded units. If the pass rate diverges materially from literate cohorts, the adaptation is lowering the gate rather than the barrier — §5 is falsified.
