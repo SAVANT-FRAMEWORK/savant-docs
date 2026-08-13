@@ -1,0 +1,1371 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Binary, signed, hash-chained governance for every artifact in the SAVANT FRAMEWORK.">
+      
+      
+        <meta name="author" content="Dr. Christabel Odeta">
+      
+      
+        <link rel="canonical" href="https://savant-framework.github.io/savant-docs/architecture/s50-absolute/">
+      
+      
+        <link rel="prev" href="../sip-v1.0/">
+      
+      
+        <link rel="next" href="../../clai-os/deterministic-engine/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>S50-ABSOLUTE — Governance Engine - SAVANT FRAMEWORK — Constitutional Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Fira Code";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#s50-absolute-governance-engine" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-header__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SAVANT FRAMEWORK — Constitutional Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              S50-ABSOLUTE — Governance Engine
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-nav__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    SAVANT FRAMEWORK — Constitutional Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spos-v1.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPOS v1.0 — Sovereign Prompt Operating System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sip-v1.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIP v1.0 — Sovereign Invocation Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S50-ABSOLUTE — Governance Engine
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S50-ABSOLUTE — Governance Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-purpose-and-standing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Purpose and Standing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-binary-predicate-only-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Binary Predicate-Only Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-four-checkpoint-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Four Checkpoint Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-signing-mechanics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Signing Mechanics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-regression-detection-and-signed-regression-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Regression Detection and Signed REGRESSION Records
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-hash-chained-genealogy-and-hyperledger-anchoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Hash-Chained Genealogy and Hyperledger Anchoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-constitutional-authority" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Constitutional Authority
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLAI-OS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CLAI-OS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/deterministic-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deterministic Clinical Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/fhir-r4-native/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FHIR R4 Native Resource Layer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-NG
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-NG
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-ng/node-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Types (N-A01 – N-D02)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-ng/mesh-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    433 MHz LoRa Mesh Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-GLOBAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-GLOBAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/manufacturing-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing & China Sourcing Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Local Engineer Certification Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grants
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grants
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grants/universal-narrative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Universal Grant Narrative Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compliance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/P61-P70/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    P61–P70 Regional Compliance Adapters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-purpose-and-standing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Purpose and Standing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-binary-predicate-only-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Binary Predicate-Only Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-four-checkpoint-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Four Checkpoint Classes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-signing-mechanics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Signing Mechanics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-regression-detection-and-signed-regression-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Regression Detection and Signed REGRESSION Records
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-hash-chained-genealogy-and-hyperledger-anchoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Hash-Chained Genealogy and Hyperledger Anchoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-constitutional-authority" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Constitutional Authority
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="s50-absolute-governance-engine">S50-ABSOLUTE — Governance Engine<a class="headerlink" href="#s50-absolute-governance-engine" title="Permanent link">&para;</a></h1>
+<p><strong>Version:</strong> 1.0.0
+<strong>Author:</strong> Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+<strong>Last Updated:</strong> 2026-08-11
+<strong>SHA-256:</strong> [PENDING-FIRST-RELEASE]</p>
+<hr />
+<h2 id="1-purpose-and-standing">1. Purpose and Standing<a class="headerlink" href="#1-purpose-and-standing" title="Permanent link">&para;</a></h2>
+<p>S50-ABSOLUTE is the governance engine of the SAVANT FRAMEWORK. It converts the constitutional text of <a href="../spos-v1.0/">SPOS v1.0</a> into enforceable, verifiable mechanics: signed checkpoints, binary verdicts, regression records, and anchored genealogy. S50 is "absolute" in one precise sense — its verdicts do not admit gradation. Governance that can be negotiated is not governance; it is advisory commentary.</p>
+<p>The constitutional authority under S50 is Dr. Christabel Odeta, sole author of all associated intellectual property. Class-A ratification requires her direct signature. This authority is not delegable, not automatable, and not subject to quorum.</p>
+<h2 id="2-binary-predicate-only-semantics">2. Binary Predicate-Only Semantics<a class="headerlink" href="#2-binary-predicate-only-semantics" title="Permanent link">&para;</a></h2>
+<p>Every S50 checkpoint evaluates a bundle of predicates. Each predicate returns exactly one of two values: <strong>TRUE</strong> or <strong>FALSE</strong>. A checkpoint verdict is the conjunction of its predicate bundle:</p>
+<ul>
+<li>All predicates TRUE → <strong>GO</strong></li>
+<li>Any predicate FALSE → <strong>NO-GO</strong></li>
+</ul>
+<p><strong>There is no "proceed with warning" state.</strong> There is no "conditional pass," no "yellow," no "accept with reservations," no severity-weighted override. The deliberate exclusion of intermediate states is the engine's core design decision: intermediate states are where accountability goes to die, because every intermediate state reintroduces the judgment call that governance exists to eliminate. A predicate that is genuinely fuzzy is not a predicate; it must be decomposed until it is binary, or removed from the bundle and handled as human review outside the checkpoint.</p>
+<p>Verdict records are canonical:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>CHECKPOINT VERDICT RECORD (canonical form)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  checkpoint_id:     S50-&lt;class&gt;-&lt;sequence&gt;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  artifact_id:       &lt;stable identifier&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  artifact_sha256:   &lt;hash of the artifact as evaluated&gt;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  predicate_bundle:  [ {predicate_id, expression, result}, ... ]   # results ∈ {TRUE, FALSE}
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  verdict:           GO | NO-GO
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>  evaluated_by:      &lt;L1 persona ID&gt;
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  ratified_by:       &lt;constitutional authority signature; class A only&gt;
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  signature:         &lt;detached signature over all fields above&gt;
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>  timestamp_utc:     &lt;ISO-8601&gt;
+</code></pre></div>
+<h2 id="3-the-four-checkpoint-classes">3. The Four Checkpoint Classes<a class="headerlink" href="#3-the-four-checkpoint-classes" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Name</th>
+<th>Scope</th>
+<th>Ratifier</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>Constitutional</td>
+<td>L0/L1 artifacts, SPOS/SIP amendments, SAFETY verdicts, authority changes</td>
+<td>Dr. Christabel Odeta (direct signature)</td>
+<td>Ratification of SPOS v1.0; authority seal changes</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>Structural</td>
+<td>L2/L3 artifacts: strategy, decomposition, orchestration plans, procedure amendments (Loop I)</td>
+<td>L1 Audit persona under standing delegation</td>
+<td>Task graph ratification; LOOP-I procedure amendment</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>Artifact</td>
+<td>L4/L5 outputs: documents, code, firmware, BOMs, grant narratives</td>
+<td>L1 Audit persona</td>
+<td>This documentation site; an AEGIS-NG firmware image</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>Operational</td>
+<td>Logged events: refusals, escalations, routine sync attestations</td>
+<td>Automated under L1 supervision</td>
+<td>SIP boundary refusal log entry</td>
+</tr>
+</tbody>
+</table>
+<p>Class assignment is a function of the artifact's layer, per the <a href="../sip-v1.0/#4-routing-table-trigger-spos-layer-checkpoint-class">SIP routing table</a>. Escalation to a stricter class is always permitted; relaxation never is.</p>
+<h2 id="4-signing-mechanics">4. Signing Mechanics<a class="headerlink" href="#4-signing-mechanics" title="Permanent link">&para;</a></h2>
+<p>All S50 signatures are over SHA-256 digests of canonical-form records. The canonical form is byte-exact: field order fixed, whitespace fixed, encodings fixed (UTF-8, no BOM). The verification procedure is fully specified so that any sovereign partner can verify a verdict record with nothing but the record, the public key, and a SHA-256 implementation:</p>
+<ol>
+<li>Serialize the record in canonical form.</li>
+<li>Compute SHA-256 of the serialization.</li>
+<li>Verify the detached signature against the digest using the published public key of the signer.</li>
+<li>For class A, additionally verify that the signer key is the published key of the constitutional authority.</li>
+</ol>
+<p>A verdict record whose signature does not verify is not "questionable." It is void, and the artifact it covered reverts to NO-GO.</p>
+<h2 id="5-regression-detection-and-signed-regression-records">5. Regression Detection and Signed REGRESSION Records<a class="headerlink" href="#5-regression-detection-and-signed-regression-records" title="Permanent link">&para;</a></h2>
+<p>Regression detection is executed by SPOS-P4 (the Regression Sentinel) whenever an amended artifact is presented for ratification. The Sentinel evaluates the amendment against its genealogical parent over four predicate families:</p>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Predicate Question</th>
+<th>Failure Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Constraint coverage</td>
+<td>Does every prohibition of the parent survive in the child?</td>
+<td>A guardrail was removed</td>
+</tr>
+<tr>
+<td>Authority scope</td>
+<td>Is the child's authority set a subset of (or equal to) the ratified scope?</td>
+<td>Authority expanded without mandate</td>
+</tr>
+<tr>
+<td>Falsifiability preservation</td>
+<td>Is every falsifiability test of the parent still executable against the child?</td>
+<td>A claim became untestable</td>
+</tr>
+<tr>
+<td>Output class stability</td>
+<td>Does the child still produce the parent's declared output classes?</td>
+<td>Downstream contracts broke</td>
+</tr>
+</tbody>
+</table>
+<p>Any FALSE produces a signed <strong>REGRESSION record</strong>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>REGRESSION RECORD (canonical form)
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  regression_id:     REG-&lt;sequence&gt;
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  child_artifact:    &lt;artifact_id + SHA-256&gt;
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  parent_artifact:   &lt;artifact_id + SHA-256&gt;
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  failed_predicates: [ {predicate_id, expression, evidence}, ... ]
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>  effect:            RATIFICATION HALTED
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>  resolution:        OPEN | ESCALATED-TO-AUTHORITY | RESOLVED-BY-REVERT | RESOLVED-BY-AMENDMENT
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>  signature:         &lt;L1 signature; authority countersignature if escalated&gt;
+</code></pre></div>
+<p>A REGRESSION record is permanent. Even when resolved, the record remains in the ledger; resolution appends, it never erases. The regression ledger is therefore a complete public history of every way the framework has ever tried to get worse.</p>
+<h2 id="6-hash-chained-genealogy-and-hyperledger-anchoring">6. Hash-Chained Genealogy and Hyperledger Anchoring<a class="headerlink" href="#6-hash-chained-genealogy-and-hyperledger-anchoring" title="Permanent link">&para;</a></h2>
+<p>Every governed artifact carries the genealogy provenance block defined in <a href="../spos-v1.0/#6-prompt-genealogy">SPOS v1.0 §6</a>: parent hash, version, author, ratifying checkpoint, amendment cause, signature. Chains are append-only.</p>
+<p>To make tampering detectable by third parties who do not trust the framework's own storage, chain heads are periodically anchored to a <strong>Hyperledger</strong> distributed ledger:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ANCHOR RECORD
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  chain_head_hash:   SHA-256 of the current terminal genealogy block
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  ledger_span:       [first block hash, terminal block hash]
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  block_count:       &lt;integer&gt;
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>  anchored_at_utc:   &lt;ISO-8601&gt;
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>  hyperledger_tx:    &lt;transaction ID on the anchoring ledger&gt;
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>  signature:         &lt;constitutional authority&gt;
+</code></pre></div>
+<p>Verification by a sovereign partner: recompute the chain from genesis, confirm the terminal hash equals the anchored <code>chain_head_hash</code>, confirm the Hyperledger transaction exists and contains that hash. Any retroactive edit anywhere in the genealogy changes the terminal hash and breaks the anchor. One mismatch falsifies the entire span — which is the point.</p>
+<h2 id="7-constitutional-authority">7. Constitutional Authority<a class="headerlink" href="#7-constitutional-authority" title="Permanent link">&para;</a></h2>
+<p>S50-ABSOLUTE names a person, not a committee, as its root: <strong>Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL</strong>, Nigerian systems architect, sole author of all associated intellectual property. Her functions under this engine are exactly three: (1) direct signature of class-A checkpoints; (2) countersignature of escalated REGRESSION records; (3) amendment of L0 invariants under Loop II. She has no other operational role in the engine, and the engine grants no one else these three. Succession, should it ever be required, is itself a class-A amendment and must be ratified before the incumbent's authority lapses; there is no interregnum state.</p>
+<hr />
+<h2 id="falsifiability-test">Falsifiability Test<a class="headerlink" href="#falsifiability-test" title="Permanent link">&para;</a></h2>
+<p><strong>Claim:</strong> S50-ABSOLUTE admits no intermediate verdict, and its history is tamper-evident end to end.</p>
+<p><strong>Test 1 (binarity):</strong> Inspect any sample of verdict records. If any record contains a verdict value other than GO or NO-GO, or a predicate result other than TRUE/FALSE, §2 is falsified; file a class-A defect.</p>
+<p><strong>Test 2 (void semantics):</strong> Corrupt one byte of a signed verdict record and re-verify per §4. If the record remains accepted anywhere in the framework, the void-on-invalid-signature invariant is falsified.</p>
+<p><strong>Test 3 (anchoring):</strong> Take the published anchor record, recompute the genealogy chain from genesis, and compare terminal hashes. A mismatch falsifies §6 for the entire anchored span and halts all ratifications pending authority review.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dr. Christabel Odeta — SAVANT FRAMEWORK &middot; CLAI-OS &middot; AEGIS-GLOBAL
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "toc.follow", "content.action.view", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

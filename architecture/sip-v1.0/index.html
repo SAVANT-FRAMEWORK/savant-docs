@@ -1,0 +1,1634 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The trigger grammar and routing law that invokes work into the SPOS fractal.">
+      
+      
+        <meta name="author" content="Dr. Christabel Odeta">
+      
+      
+        <link rel="canonical" href="https://savant-framework.github.io/savant-docs/architecture/sip-v1.0/">
+      
+      
+        <link rel="prev" href="../spos-v1.0/">
+      
+      
+        <link rel="next" href="../s50-absolute/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>SIP v1.0 — Sovereign Invocation Protocol - SAVANT FRAMEWORK — Constitutional Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Fira Code";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sip-v10-sovereign-invocation-protocol" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-header__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SAVANT FRAMEWORK — Constitutional Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SIP v1.0 — Sovereign Invocation Protocol
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-nav__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    SAVANT FRAMEWORK — Constitutional Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spos-v1.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPOS v1.0 — Sovereign Prompt Operating System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIP v1.0 — Sovereign Invocation Protocol
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIP v1.0 — Sovereign Invocation Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-purpose-and-standing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Purpose and Standing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-fifteen-trigger-prefixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The Fifteen Trigger Prefixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-ten-one-letter-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Ten One-Letter Shortcuts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The Ten One-Letter Shortcuts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-why-safety-has-no-shortcut-deliberate-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Why SAFETY Has No Shortcut — Deliberate Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-routing-table-trigger-spos-layer-checkpoint-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Routing Table: Trigger → SPOS Layer → Checkpoint Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-context-block-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Context Block Templates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Context Block Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-minimal-context-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Minimal Context Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-maximal-context-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Maximal Context Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-refusal-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Refusal Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../s50-absolute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S50-ABSOLUTE — Governance Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLAI-OS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CLAI-OS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/deterministic-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deterministic Clinical Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/fhir-r4-native/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FHIR R4 Native Resource Layer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-NG
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-NG
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-ng/node-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Types (N-A01 – N-D02)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-ng/mesh-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    433 MHz LoRa Mesh Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-GLOBAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-GLOBAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/manufacturing-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing & China Sourcing Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Local Engineer Certification Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grants
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grants
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grants/universal-narrative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Universal Grant Narrative Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compliance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/P61-P70/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    P61–P70 Regional Compliance Adapters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-purpose-and-standing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Purpose and Standing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-the-fifteen-trigger-prefixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. The Fifteen Trigger Prefixes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-ten-one-letter-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The Ten One-Letter Shortcuts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The Ten One-Letter Shortcuts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-why-safety-has-no-shortcut-deliberate-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Why SAFETY Has No Shortcut — Deliberate Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-routing-table-trigger-spos-layer-checkpoint-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Routing Table: Trigger → SPOS Layer → Checkpoint Class
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-context-block-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Context Block Templates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Context Block Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-minimal-context-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Minimal Context Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-maximal-context-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Maximal Context Block
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-refusal-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Refusal Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="sip-v10-sovereign-invocation-protocol">SIP v1.0 — Sovereign Invocation Protocol<a class="headerlink" href="#sip-v10-sovereign-invocation-protocol" title="Permanent link">&para;</a></h1>
+<p><strong>Version:</strong> 1.0.0
+<strong>Author:</strong> Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+<strong>Last Updated:</strong> 2026-08-11
+<strong>SHA-256:</strong> [PENDING-FIRST-RELEASE]</p>
+<hr />
+<h2 id="1-purpose-and-standing">1. Purpose and Standing<a class="headerlink" href="#1-purpose-and-standing" title="Permanent link">&para;</a></h2>
+<p>The Sovereign Invocation Protocol (SIP) is the grammar by which work enters the <a href="../spos-v1.0/">SPOS v1.0</a> fractal. An invocation consists of a trigger prefix, a scope, and a context block. The trigger prefix is not decoration: it determines the SPOS layer of the work, the checkpoint class under which the output will be judged, and the prohibitions that attach to the acting persona. An invocation without a valid trigger is ungoverned work and is refused at the boundary.</p>
+<p>SIP v1.0 is ratified under S50-ABSOLUTE checkpoint class A. The trigger set is closed: new triggers enter only by constitutional amendment, never by convention.</p>
+<h2 id="2-the-fifteen-trigger-prefixes">2. The Fifteen Trigger Prefixes<a class="headerlink" href="#2-the-fifteen-trigger-prefixes" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Trigger</th>
+<th>Function</th>
+<th>Typical Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>ARCHITECT</code></td>
+<td>Designs system structure, layer placement, and interface contracts.</td>
+<td>Architecture specification</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>AUDIT</code></td>
+<td>Examines an artifact against the predicate battery of its checkpoint class.</td>
+<td>Signed verdict record</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>STRATEGIZE</code></td>
+<td>Produces horizon-bound objectives and doctrine rationale.</td>
+<td>L2 objective set</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>HARDEN</code></td>
+<td>Identifies and closes failure modes in a design or artifact.</td>
+<td>Hardening diff + rationale</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>EXECUTE</code></td>
+<td>Performs deterministic production to an accepted specification.</td>
+<td>Built artifact</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>SYNTHESIZE</code></td>
+<td>Merges multiple verified inputs into one coherent artifact without new claims.</td>
+<td>Synthesis document</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>DECOMPOSE</code></td>
+<td>Breaks an objective into an ordered task graph with acceptance criteria.</td>
+<td>Task graph</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>REDTEAM</code></td>
+<td>Adversarially attacks a design, claim, or artifact to locate falsification.</td>
+<td>Red-team findings record</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>FORESIGHT</code></td>
+<td>Projects scenario branches and leading indicators over a declared horizon.</td>
+<td>Scenario register</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>OPTIMIZE</code></td>
+<td>Improves a measurable property of an artifact under fixed constraints.</td>
+<td>Optimization diff + metric delta</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>COMPLETE</code></td>
+<td>Brings a partially specified deliverable to full constitutional form.</td>
+<td>Completed specification</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>SAFETY</code></td>
+<td>Evaluates harm potential and safety invariants; may halt any pipeline.</td>
+<td>Safety verdict (GO / NO-GO)</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>RAG</code></td>
+<td>Retrieves and grounds claims against the approved corpus only.</td>
+<td>Grounded citation record</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>BUILD</code></td>
+<td>Constructs infrastructure, tooling, firmware, or deployment scaffolding.</td>
+<td>Build artifact + manifest</td>
+</tr>
+<tr>
+<td>15</td>
+<td><code>ORCHESTRATE</code></td>
+<td>Sequences and supervises multi-agent work across layers.</td>
+<td>Orchestration plan + ledger</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-the-ten-one-letter-shortcuts">3. The Ten One-Letter Shortcuts<a class="headerlink" href="#3-the-ten-one-letter-shortcuts" title="Permanent link">&para;</a></h2>
+<p>For operator efficiency, ten triggers admit a one-letter shortcut. Shortcuts are exact aliases; they change nothing about routing, checkpoint class, or prohibition. The mapping is fixed:</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Trigger</th>
+<th>Mnemonic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A</code></td>
+<td>ARCHITECT</td>
+<td>Architect</td>
+</tr>
+<tr>
+<td><code>B</code></td>
+<td>BUILD</td>
+<td>Build</td>
+</tr>
+<tr>
+<td><code>R</code></td>
+<td>REDTEAM</td>
+<td>Red-team</td>
+</tr>
+<tr>
+<td><code>S</code></td>
+<td>STRATEGIZE</td>
+<td>Strategize</td>
+</tr>
+<tr>
+<td><code>H</code></td>
+<td>HARDEN</td>
+<td>Harden</td>
+</tr>
+<tr>
+<td><code>E</code></td>
+<td>EXECUTE</td>
+<td>Execute</td>
+</tr>
+<tr>
+<td><code>O</code></td>
+<td>ORCHESTRATE</td>
+<td>Orchestrate</td>
+</tr>
+<tr>
+<td><code>C</code></td>
+<td>COMPLETE</td>
+<td>Complete</td>
+</tr>
+<tr>
+<td><code>T</code></td>
+<td>AUDIT</td>
+<td>au<strong>T</strong>it (audit; <code>A</code> is occupied by ARCHITECT)</td>
+</tr>
+<tr>
+<td><code>D</code></td>
+<td>DECOMPOSE</td>
+<td>Decompose</td>
+</tr>
+</tbody>
+</table>
+<h3 id="31-why-safety-has-no-shortcut-deliberate-policy">3.1 Why SAFETY Has No Shortcut — Deliberate Policy<a class="headerlink" href="#31-why-safety-has-no-shortcut-deliberate-policy" title="Permanent link">&para;</a></h3>
+<p><code>SAFETY</code> is the only trigger deliberately denied a one-letter form. The policy rationale is constitutional, not ergonomic: a safety invocation must always be the product of a deliberate, fully-spelled act. One-letter shortcuts exist to reduce friction, and friction is precisely what a safety halt must never lose. No abbreviation, alias, or autocomplete of <code>SAFETY</code> is permitted anywhere in the framework — including in tooling, shell aliases, and agent role cards. Violation is a class-A defect. Five triggers carry no shortcut for collision or policy reasons: SAFETY (policy), SYNTHESIZE (collides with <code>S</code>→STRATEGIZE), FORESIGHT (no unique non-colliding letter admitted), OPTIMIZE (collides with <code>O</code>→ORCHESTRATE), and RAG (collides with <code>R</code>→REDTEAM).</p>
+<h2 id="4-routing-table-trigger-spos-layer-checkpoint-class">4. Routing Table: Trigger → SPOS Layer → Checkpoint Class<a class="headerlink" href="#4-routing-table-trigger-spos-layer-checkpoint-class" title="Permanent link">&para;</a></h2>
+<p>Checkpoint classes are defined in <a href="../s50-absolute/">S50-ABSOLUTE</a> §3: <strong>A</strong> (constitutional), <strong>B</strong> (structural), <strong>C</strong> (artifact), <strong>D</strong> (operational).</p>
+<table>
+<thead>
+<tr>
+<th>Trigger</th>
+<th>Shortcut</th>
+<th>SPOS Layer</th>
+<th>Checkpoint Class</th>
+<th>Governing Load-Bearing Prompts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ARCHITECT</td>
+<td>A</td>
+<td>L2 Strategic</td>
+<td>A</td>
+<td>SPOS-P5, SPOS-P6</td>
+</tr>
+<tr>
+<td>AUDIT</td>
+<td>T</td>
+<td>L1 Audit</td>
+<td>A</td>
+<td>SPOS-P3, SPOS-P4</td>
+</tr>
+<tr>
+<td>STRATEGIZE</td>
+<td>S</td>
+<td>L2 Strategic</td>
+<td>B</td>
+<td>SPOS-P5, SPOS-P6</td>
+</tr>
+<tr>
+<td>HARDEN</td>
+<td>H</td>
+<td>L3 Tactical</td>
+<td>B</td>
+<td>SPOS-P7, SPOS-P8</td>
+</tr>
+<tr>
+<td>EXECUTE</td>
+<td>E</td>
+<td>L5 Execution</td>
+<td>C</td>
+<td>SPOS-P11, SPOS-P12</td>
+</tr>
+<tr>
+<td>SYNTHESIZE</td>
+<td>—</td>
+<td>L3 Tactical</td>
+<td>C</td>
+<td>SPOS-P7</td>
+</tr>
+<tr>
+<td>DECOMPOSE</td>
+<td>D</td>
+<td>L3 Tactical</td>
+<td>B</td>
+<td>SPOS-P7, SPOS-P8</td>
+</tr>
+<tr>
+<td>REDTEAM</td>
+<td>R</td>
+<td>L1 Audit</td>
+<td>B</td>
+<td>SPOS-P4</td>
+</tr>
+<tr>
+<td>FORESIGHT</td>
+<td>—</td>
+<td>L2 Strategic</td>
+<td>C</td>
+<td>SPOS-P5</td>
+</tr>
+<tr>
+<td>OPTIMIZE</td>
+<td>—</td>
+<td>L3 Tactical</td>
+<td>C</td>
+<td>SPOS-P8, SPOS-P11</td>
+</tr>
+<tr>
+<td>COMPLETE</td>
+<td>C</td>
+<td>L3 Tactical</td>
+<td>B</td>
+<td>SPOS-P7, SPOS-P11</td>
+</tr>
+<tr>
+<td>SAFETY</td>
+<td>— (by policy)</td>
+<td>L1 Audit</td>
+<td>A</td>
+<td>SPOS-P3, SPOS-P4</td>
+</tr>
+<tr>
+<td>RAG</td>
+<td>—</td>
+<td>L5 Execution</td>
+<td>C</td>
+<td>SPOS-P11</td>
+</tr>
+<tr>
+<td>BUILD</td>
+<td>B</td>
+<td>L5 Execution</td>
+<td>C</td>
+<td>SPOS-P11, SPOS-P12</td>
+</tr>
+<tr>
+<td>ORCHESTRATE</td>
+<td>O</td>
+<td>L3 Tactical</td>
+<td>B</td>
+<td>SPOS-P8, SPOS-P9</td>
+</tr>
+</tbody>
+</table>
+<p>Routing invariants:</p>
+<ol>
+<li>Every trigger routes to <strong>exactly one</strong> layer. No ambiguity is tolerated at the boundary.</li>
+<li>Checkpoint class is a function of the trigger, not of the operator's confidence. An operator may request a <em>stricter</em> class than the table specifies (escalation is always permitted), never a looser one.</li>
+<li><code>AUDIT</code> and <code>SAFETY</code> both route to L1 because both are veto-bearing functions; origination layers (L2–L5) may never self-certify.</li>
+</ol>
+<h2 id="5-context-block-templates">5. Context Block Templates<a class="headerlink" href="#5-context-block-templates" title="Permanent link">&para;</a></h2>
+<p>Every SIP invocation carries a context block. Two canonical forms exist.</p>
+<h3 id="51-minimal-context-block">5.1 Minimal Context Block<a class="headerlink" href="#51-minimal-context-block" title="Permanent link">&para;</a></h3>
+<p>The minimal form is sufficient for routine class-C/D work where the task graph position is unambiguous:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>SIP CONTEXT BLOCK — MINIMAL
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  trigger:        &lt;one of the 15 prefixes, or valid shortcut&gt;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  scope:          &lt;single declarative sentence naming the work&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  inputs:         &lt;list of artifact IDs or &quot;none&quot;&gt;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  acceptance:     &lt;one falsifiable acceptance criterion&gt;
+</code></pre></div>
+<h3 id="52-maximal-context-block">5.2 Maximal Context Block<a class="headerlink" href="#52-maximal-context-block" title="Permanent link">&para;</a></h3>
+<p>The maximal form is mandatory for all class-A and class-B work, all cross-layer orchestration, and any invocation touching L0-adjacent material:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>SIP CONTEXT BLOCK — MAXIMAL
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  trigger:            &lt;full prefix (shortcuts NOT permitted at class A/B)&gt;
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  shortcut_used:      none
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>  scope:              &lt;single declarative sentence naming the work&gt;
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>  parent_objective:   &lt;L2 objective ID this work serves; &quot;L0-CONSTITUTIONAL&quot; for
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>                       constitutional work&gt;
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>  task_graph_ref:     &lt;L3 task graph node ID&gt;
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>  inputs:             &lt;artifact IDs with version pins and expected SHA-256&gt;
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>  corpus_constraints: &lt;approved RAG corpus scope, or &quot;corpus-free&quot;&gt;
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>  prohibitions:       &lt;explicit restatement of layer prohibitions for this task&gt;
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>  acceptance:         &lt;falsifiable acceptance criteria, enumerated&gt;
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>  checkpoint_class:   &lt;A | B | C | D — must match or exceed routing table&gt;
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>  escalation_path:    &lt;named persona one layer up&gt;
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>  attribution:        Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+</code></pre></div>
+<p>Two rules bind both forms. First, at class A/B the full trigger must be spelled; shortcuts are a class-C/D convenience only. Second, the <code>prohibitions</code> field of the maximal block must restate the layer prohibitions in the operator's own words — a copied-and-pasted prohibition is treated as an unread prohibition and fails checkpoint predicate C-3.</p>
+<h2 id="6-refusal-semantics">6. Refusal Semantics<a class="headerlink" href="#6-refusal-semantics" title="Permanent link">&para;</a></h2>
+<p>The boundary refuses an invocation when: the trigger is absent or unknown; a shortcut is used at class A/B; the context block fails schema; or a <code>SAFETY</code> halt is active anywhere in the affected pipeline. Refusals are logged as operational events (class D) and are not themselves failure findings — refusal is the protocol working as designed.</p>
+<hr />
+<h2 id="falsifiability-test">Falsifiability Test<a class="headerlink" href="#falsifiability-test" title="Permanent link">&para;</a></h2>
+<p><strong>Claim:</strong> The trigger set is closed, routing is total and unambiguous, and SAFETY is unreachable by abbreviation.</p>
+<p><strong>Test 1 (totality):</strong> For each of the fifteen triggers, resolve Section 4 to a unique (layer, checkpoint class) pair. Any row yielding zero or two pairs falsifies totality.</p>
+<p><strong>Test 2 (closure):</strong> Attempt to invoke with a sixteenth prefix. If the boundary produces work rather than a logged refusal, closure is falsified.</p>
+<p><strong>Test 3 (policy):</strong> Grep all framework tooling, role cards, and shell configuration for any single-character or abbreviated alias resolving to SAFETY. One hit anywhere falsifies §3.1 and is a class-A defect.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dr. Christabel Odeta — SAVANT FRAMEWORK &middot; CLAI-OS &middot; AEGIS-GLOBAL
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "toc.follow", "content.action.view", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

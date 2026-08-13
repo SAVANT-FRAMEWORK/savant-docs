@@ -1,0 +1,1507 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The fourteen-type field hardware family of the AEGIS-NG sovereign mesh — sensing, relay, hub, and command/display.">
+      
+      
+        <meta name="author" content="Dr. Christabel Odeta">
+      
+      
+        <link rel="canonical" href="https://savant-framework.github.io/savant-docs/aegis-ng/node-types/">
+      
+      
+        <link rel="prev" href="../../clai-os/fhir-r4-native/">
+      
+      
+        <link rel="next" href="../mesh-protocol/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>AEGIS-NG — Node Types (N-A01 – N-D02) - SAVANT FRAMEWORK — Constitutional Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Fira Code";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aegis-ng-node-types-n-a01-n-d02" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-header__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SAVANT FRAMEWORK — Constitutional Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AEGIS-NG — Node Types (N-A01 – N-D02)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SAVANT FRAMEWORK — Constitutional Documentation" class="md-nav__button md-logo" aria-label="SAVANT FRAMEWORK — Constitutional Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    SAVANT FRAMEWORK — Constitutional Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Architecture
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/spos-v1.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPOS v1.0 — Sovereign Prompt Operating System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/sip-v1.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SIP v1.0 — Sovereign Invocation Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/s50-absolute/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    S50-ABSOLUTE — Governance Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLAI-OS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CLAI-OS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/deterministic-engine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deterministic Clinical Engine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../clai-os/fhir-r4-native/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FHIR R4 Native Resource Layer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-NG
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-NG
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Types (N-A01 – N-D02)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Node Types (N-A01 – N-D02)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-family-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Family Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-constitutional-hardware-invariants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Constitutional Hardware Invariants
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-group-a-sensing-beacons-n-a01-n-a05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Group A — Sensing Beacons (N-A01 … N-A05)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-group-b-relay-nodes-n-b01-n-b04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Group B — Relay Nodes (N-B01 … N-B04)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-group-c-hub-nodes-n-c01-n-c03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Group C — Hub Nodes (N-C01 … N-C03)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-group-d-command-display-nodes-n-d01-n-d02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Group D — Command / Display Nodes (N-D01, N-D02)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-falsifiability-tests-by-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Falsifiability Tests by Group
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mesh-protocol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    433 MHz LoRa Mesh Protocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AEGIS-GLOBAL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AEGIS-GLOBAL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/manufacturing-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufacturing & China Sourcing Specification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aegis-global/curriculum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Local Engineer Certification Curriculum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grants
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grants
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grants/universal-narrative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Universal Grant Narrative Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compliance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/P61-P70/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    P61–P70 Regional Compliance Adapters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-family-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Family Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-constitutional-hardware-invariants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Constitutional Hardware Invariants
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-group-a-sensing-beacons-n-a01-n-a05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Group A — Sensing Beacons (N-A01 … N-A05)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-group-b-relay-nodes-n-b01-n-b04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Group B — Relay Nodes (N-B01 … N-B04)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-group-c-hub-nodes-n-c01-n-c03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Group C — Hub Nodes (N-C01 … N-C03)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-group-d-command-display-nodes-n-d01-n-d02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Group D — Command / Display Nodes (N-D01, N-D02)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-falsifiability-tests-by-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Falsifiability Tests by Group
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#falsifiability-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Falsifiability Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="aegis-ng-node-types-n-a01-n-d02">AEGIS-NG — Node Types (N-A01 – N-D02)<a class="headerlink" href="#aegis-ng-node-types-n-a01-n-d02" title="Permanent link">&para;</a></h1>
+<p><strong>Version:</strong> 1.0.0
+<strong>Author:</strong> Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
+<strong>Last Updated:</strong> 2026-08-11
+<strong>SHA-256:</strong> [PENDING-FIRST-RELEASE]</p>
+<hr />
+<h2 id="1-family-architecture">1. Family Architecture<a class="headerlink" href="#1-family-architecture" title="Permanent link">&para;</a></h2>
+<p>AEGIS-NG field hardware comprises fourteen node types in four role groupings. The grouping is functional and constitutional: a node's role determines its permitted radio behavior, its power budget, and its anti-tamper obligations. A node may never act outside its role grouping; a beacon that begins routing is a compromised beacon.</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Role</th>
+<th>Node Types</th>
+<th>Firmware (F-series)</th>
+<th>On-Device Models (M-series)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>Sensing</td>
+<td>N-A01 … N-A05 (5 types)</td>
+<td>F-01 … F-05</td>
+<td>M-01, M-02 (where fitted)</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>Relay</td>
+<td>N-B01 … N-B04 (4 types)</td>
+<td>F-06 … F-08</td>
+<td>none</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>Hub</td>
+<td>N-C01 … N-C03 (3 types)</td>
+<td>F-09 … F-11</td>
+<td>M-03 … M-06 (where fitted)</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>Command / Display</td>
+<td>N-D01, N-D02 (2 types)</td>
+<td>F-12</td>
+<td>none (renders upstream inferences)</td>
+</tr>
+</tbody>
+</table>
+<p>Cross-references: F-01…F-12 are the signed firmware images enumerated in the firmware registry; M-01…M-06 are TensorFlow Lite Micro models compiled for the MCUs below. Both registries are governed artifacts (S50 class C) and are hash-pinned in each node's build manifest. No node ships with an unpinned firmware or model.</p>
+<h2 id="2-constitutional-hardware-invariants">2. Constitutional Hardware Invariants<a class="headerlink" href="#2-constitutional-hardware-invariants" title="Permanent link">&para;</a></h2>
+<p>These apply to all fourteen types and are repeated here so each per-type table can be read against them:</p>
+<ol>
+<li><strong>Power: solar-only.</strong> Every field node is solar-powered with integrated storage. No grid dependency, no battery-swap logistics, no generator fuel chain. Storage is sized for ≥ 5 overcast days at full duty cycle (≥ 21 days for Group A at reduced duty).</li>
+<li><strong>Radio: 433 MHz LoRa.</strong> All mesh traffic is 433 MHz LoRa per the <a href="../mesh-protocol/">Mesh Protocol</a>. Sub-GHz ISM-band operation, long range, low power, license-appropriate for Nigerian deployment.</li>
+<li><strong>No GPS on beacons.</strong> Group A sensing beacons carry <strong>no GPS receiver</strong>. Location is bound at deployment (surveyor-recorded, signed into the node manifest) and never re-negotiated by radio. This removes the most common tracking-and-spoofing attack surface on field sensors and removes a power-hungry peripheral from a solar budget.</li>
+<li><strong>Anti-tamper by construction.</strong> Every enclosure carries tamper-mesh switches; detection of enclosure breach zeroizes key material and emits a signed tamper event to the mesh before shutdown (power reserve is reserved for exactly this transmission).</li>
+<li><strong>Falsifiability per group.</strong> Each group carries a group-level falsifiability test (§7) that a sovereign partner can run with field equipment.</li>
+</ol>
+<h2 id="3-group-a-sensing-beacons-n-a01-n-a05">3. Group A — Sensing Beacons (N-A01 … N-A05)<a class="headerlink" href="#3-group-a-sensing-beacons-n-a01-n-a05" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Sensing Function</th>
+<th>MCU</th>
+<th>Radio</th>
+<th>Power</th>
+<th>Anti-Tamper</th>
+<th>Firmware</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N-A01</td>
+<td>Human presence / motion perimeter beacon</td>
+<td>STM32L072 (ultra-low-power ARM Cortex-M0+)</td>
+<td>SX1278 433 MHz LoRa, transmit-only into mesh</td>
+<td>Solar-only, ≥ 21 days storage</td>
+<td>Tamper-mesh switch; key zeroization; signed tamper event</td>
+<td>F-01</td>
+<td>M-01 (presence classifier, TFLite Micro)</td>
+</tr>
+<tr>
+<td>N-A02</td>
+<td>Environmental beacon (temperature, humidity, particulate)</td>
+<td>STM32L072</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only, ≥ 21 days storage</td>
+<td>Tamper-mesh switch; key zeroization</td>
+<td>F-02</td>
+<td>none (threshold logic in firmware)</td>
+</tr>
+<tr>
+<td>N-A03</td>
+<td>Acoustic event beacon (gunshot / disturbance classification)</td>
+<td>STM32L072</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only, ≥ 14 days storage (audio duty)</td>
+<td>Tamper-mesh switch; microphone self-test line</td>
+<td>F-03</td>
+<td>M-02 (acoustic event classifier, TFLite Micro)</td>
+</tr>
+<tr>
+<td>N-A04</td>
+<td>Water point / flow beacon</td>
+<td>STM32L072</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only, ≥ 21 days storage</td>
+<td>Tamper-mesh switch; probe-disconnect detection</td>
+<td>F-04</td>
+<td>none</td>
+</tr>
+<tr>
+<td>N-A05</td>
+<td>Structural / fence-line vibration beacon</td>
+<td>STM32L072</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only, ≥ 21 days storage</td>
+<td>Tamper-mesh switch; mount-detachment detection</td>
+<td>F-05</td>
+<td>M-01 (shared presence/vibration classifier)</td>
+</tr>
+</tbody>
+</table>
+<p>Design notes: the STM32L072 is chosen for sub-µA sleep domains and native LoRaWAN-adjacent peripheral integration at very low cost; Group A duty cycles are ≤ 1 %, and all inference is on-device (M-series) so that raw sensor streams never traverse the mesh — only signed event summaries do. Beacons emit event summaries and heartbeats; they do not route (see §1 invariant: a beacon that routes is a compromised beacon).</p>
+<h2 id="4-group-b-relay-nodes-n-b01-n-b04">4. Group B — Relay Nodes (N-B01 … N-B04)<a class="headerlink" href="#4-group-b-relay-nodes-n-b01-n-b04" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Relay Function</th>
+<th>MCU</th>
+<th>Radio</th>
+<th>Power</th>
+<th>Anti-Tamper</th>
+<th>Firmware</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N-B01</td>
+<td>Fixed mast relay (primary backbone)</td>
+<td>ESP32-C3 (RISC-V, integrated RF front-end host)</td>
+<td>SX1278 433 MHz LoRa, dual-buffer store-and-forward</td>
+<td>Solar-only, ≥ 7 days storage</td>
+<td>Tamper-mesh switch; key zeroization; signed tamper event</td>
+<td>F-06</td>
+<td>none</td>
+</tr>
+<tr>
+<td>N-B02</td>
+<td>Fixed mast relay, long-haul (high-gain antenna)</td>
+<td>ESP32-C3</td>
+<td>SX1278 433 MHz LoRa, high-gain collinear</td>
+<td>Solar-only, ≥ 7 days storage</td>
+<td>Tamper-mesh switch; key zeroization</td>
+<td>F-06</td>
+<td>none</td>
+</tr>
+<tr>
+<td>N-B03</td>
+<td>Elevated terrain relay (ridgeline / tree platform)</td>
+<td>ESP32-C3</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only, ≥ 10 days storage (maintenance-light sites)</td>
+<td>Tamper-mesh switch; tilt/detachment detection</td>
+<td>F-07</td>
+<td>none</td>
+</tr>
+<tr>
+<td>N-B04</td>
+<td>Mobile relay (vehicle / patrol-mounted)</td>
+<td>ESP32-C3</td>
+<td>SX1278 433 MHz LoRa</td>
+<td>Solar-only + vehicle auxiliary input (solar remains primary)</td>
+<td>Tamper-mesh switch; motion-context attestation</td>
+<td>F-08</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>Design notes: relays route, buffer, and attest. They hold no sensor data beyond forwarding buffers, run no M-series inference, and implement the store-and-forward semantics of the <a href="../mesh-protocol/">Mesh Protocol</a> §5. The ESP32-C3 is chosen for its RISC-V toolchain maturity, hardware secure boot, and cost position.</p>
+<h2 id="5-group-c-hub-nodes-n-c01-n-c03">5. Group C — Hub Nodes (N-C01 … N-C03)<a class="headerlink" href="#5-group-c-hub-nodes-n-c01-n-c03" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Hub Function</th>
+<th>MCU</th>
+<th>Radio</th>
+<th>Power</th>
+<th>Anti-Tamper</th>
+<th>Firmware</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N-C01</td>
+<td>Ward aggregation hub (mesh-to-local-store)</td>
+<td>ESP32-S3 (dual-core Xtensa, vector extensions)</td>
+<td>SX1278 433 MHz LoRa + local Ethernet/Wi-Fi uplink option</td>
+<td>Solar-only, ≥ 5 days storage, larger array</td>
+<td>Tamper-mesh switch; dual zeroization domains; signed tamper event</td>
+<td>F-09</td>
+<td>M-03 (event-fusion filter, TFLite Micro)</td>
+</tr>
+<tr>
+<td>N-C02</td>
+<td>LGA hub with edge analytics</td>
+<td>ESP32-S3</td>
+<td>SX1278 433 MHz LoRa + uplink option</td>
+<td>Solar-only, ≥ 5 days storage</td>
+<td>Tamper-mesh switch; dual zeroization domains</td>
+<td>F-10</td>
+<td>M-04 (anomaly scoring), M-05 (triage ranking)</td>
+</tr>
+<tr>
+<td>N-C03</td>
+<td>Clinical edge hub (CLAI-OS bridge)</td>
+<td>ESP32-S3</td>
+<td>SX1278 433 MHz LoRa + facility LAN</td>
+<td>Solar-only with facility auxiliary fallback (solar primary)</td>
+<td>Tamper-mesh switch; dual zeroization domains; enclosure intrusion logging to CRDT</td>
+<td>F-11</td>
+<td>M-06 (signal-quality gate for clinical sensor feeds)</td>
+</tr>
+</tbody>
+</table>
+<p>Design notes: hubs are the only nodes that bridge the mesh to other networks, and they do so under store-and-forward discipline — the mesh never depends on the uplink. The ESP32-S3 is chosen for its vector instruction support, which the M-03…M-06 TFLite Micro models require at acceptable latency. Hubs host the local CRDT replicas described in <a href="../../clai-os/fhir-r4-native/">FHIR R4 Native §4</a> where clinical data is concerned.</p>
+<h2 id="6-group-d-command-display-nodes-n-d01-n-d02">6. Group D — Command / Display Nodes (N-D01, N-D02)<a class="headerlink" href="#6-group-d-command-display-nodes-n-d01-n-d02" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Command/Display Function</th>
+<th>MCU</th>
+<th>Radio</th>
+<th>Power</th>
+<th>Anti-Tamper</th>
+<th>Firmware</th>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N-D01</td>
+<td>Field command display (map + event wall for LGA operators)</td>
+<td>ESP32-S3 (display pipeline)</td>
+<td>SX1278 433 MHz LoRa (receive-dominant) + LAN</td>
+<td>Solar-only with facility auxiliary fallback (solar primary)</td>
+<td>Tamper-mesh switch; operator-authentication binding; zeroization</td>
+<td>F-12</td>
+<td>none (renders upstream inferences only)</td>
+</tr>
+<tr>
+<td>N-D02</td>
+<td>Sovereign command console (state/national aggregation)</td>
+<td>ESP32-S3 (display pipeline)</td>
+<td>SX1278 433 MHz LoRa + uplink</td>
+<td>Solar-only with facility auxiliary fallback (solar primary)</td>
+<td>Tamper-mesh switch; dual-operator control for sensitive actions; zeroization</td>
+<td>F-12</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>Design notes: Group D nodes issue commands into the mesh only through signed, role-bound control messages; an unsigned or out-of-role command is dropped at the first relay and logged as an operational event. Dual-operator control on N-D02 applies to any action affecting more than one LGA — the hardware enforces the two-person rule, not the policy document.</p>
+<h2 id="7-falsifiability-tests-by-group">7. Falsifiability Tests by Group<a class="headerlink" href="#7-falsifiability-tests-by-group" title="Permanent link">&para;</a></h2>
+<p><strong>Group A (sensing).</strong> Deploy one beacon of any A type at a surveyed position with its manifest location. Trigger its sensing modality with a controlled field event (walk the perimeter, fire a blank in a controlled range, run water). Verify: (1) a signed event summary arrives at the hub within the mesh latency bound; (2) the beacon ignores a replayed event packet from a third-party transmitter; (3) opening the enclosure produces a signed tamper event and key zeroization. Failure on any arm falsifies the group.</p>
+<p><strong>Group B (relay).</strong> Sever the direct link between a beacon and its hub, forcing store-and-forward through an N-B01/B02. Verify message delivery with sequence integrity and no duplication, and verify that delivery resumes ordering-correctly after a 6-hour relay power-down (covered panel) followed by restoration. Failure on ordering or loss falsifies §5 of the mesh protocol as implemented.</p>
+<p><strong>Group C (hub).</strong> Disconnect all uplinks from an N-C01 for 18 hours while feeding it synthetic mesh traffic at 2× rated load. Verify: no event loss, local CRDT replica divergence bounded and convergent at reconnect, and M-03/M-04 inference latency within specification on ESP32-S3. Failure falsifies the hub's offline claim.</p>
+<p><strong>Group D (command/display).</strong> Attempt to inject an unsigned control message and an out-of-role signed message at N-D01. Verify both are dropped at the first relay and logged. Then attempt a multi-LGA action on N-D02 with a single operator credential. If the action executes, the hardware two-person rule is falsified — a class-A defect.</p>
+<hr />
+<h2 id="falsifiability-test">Falsifiability Test<a class="headerlink" href="#falsifiability-test" title="Permanent link">&para;</a></h2>
+<p><strong>Claim:</strong> Fourteen node types, four role groupings, solar-only, 433 MHz LoRa, no GPS on beacons, anti-tamper by construction — and every claim testable with field equipment.</p>
+<p><strong>Test:</strong> Manufacture or procure one node of each group per the <a href="../../aegis-global/manufacturing-spec/">Manufacturing Specification</a>, then execute the group test in §7 appropriate to each. Any group failing any arm of its test invalidates the corresponding section of this document; record as a signed REGRESSION record under S50 checkpoint class C. The tests require no proprietary tooling — only a surveyed position, a second transmitter, a covered solar panel, and time.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dr. Christabel Odeta — SAVANT FRAMEWORK &middot; CLAI-OS &middot; AEGIS-GLOBAL
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "toc.follow", "content.action.view", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
