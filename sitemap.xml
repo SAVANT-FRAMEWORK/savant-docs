@@ -2,50 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://savant-framework.github.io/savant-docs/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/prompt-corpus/</loc>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/aegis-global/curriculum/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/aegis-global/manufacturing-spec/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/aegis-ng/mesh-protocol/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/aegis-ng/node-types/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/architecture/s50-absolute/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/architecture/sip-v1.0/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/architecture/spos-v1.0/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/clai-os/deterministic-engine/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/clai-os/fhir-r4-native/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/integration-layer-A2/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/africa-extension/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/business-model-and-publishing/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/global-equity-extension/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/module-structures-and-advanced-markets/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/tiers-1-5/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/tiers-6-10-and-deployment/</loc>
+         <lastmod>2026-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://savant-framework.github.io/savant-docs/clai-os/operations/us-and-arab-extensions/</loc>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/compliance/P61-P70/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
     <url>
          <loc>https://savant-framework.github.io/savant-docs/grants/universal-narrative/</loc>
-         <lastmod>2026-08-13</lastmod>
+         <lastmod>2026-10-01</lastmod>
     </url>
 </urlset>
