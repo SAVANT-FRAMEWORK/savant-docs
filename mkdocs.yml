@@ -73,6 +73,18 @@ nav:
   - CLAI-OS:
       - Deterministic Clinical Engine: clai-os/deterministic-engine.md
       - FHIR R4 Native Resource Layer: clai-os/fhir-r4-native.md
+      - Integration Layer (Document A2): clai-os/integration-layer-A2.md
+      - Operations Abstract (P1–P50):
+          - Overview & Document Map: clai-os/operations/index.md
+          - Business Model & Publishing Strategy: clai-os/operations/business-model-and-publishing.md
+          - Global Equity Extension (P51-G – P70-G): clai-os/operations/global-equity-extension.md
+          - Tiers 1–5 (P1–P25): clai-os/operations/tiers-1-5.md
+          - Tiers 6–10 (P26–P50) & Deployment Playbook: clai-os/operations/tiers-6-10-and-deployment.md
+          - Africa Extension (P51-AF – P70-AF): clai-os/operations/africa-extension.md
+          - Module Structures & Advanced Markets (Asia): clai-os/operations/module-structures-and-advanced-markets.md
+          - Regional Extensions — US & Arab Region: clai-os/operations/us-and-arab-extensions.md
+  - Prompt Corpus:
+      - 75 Prompts, 15 Tiers — Ledger & License Gate: prompt-corpus.md
   - AEGIS-NG:
       - Node Types (N-A01 – N-D02): aegis-ng/node-types.md
       - 433 MHz LoRa Mesh Protocol: aegis-ng/mesh-protocol.md
