@@ -4,7 +4,7 @@ description: Savant-level abstracts and methodologies for the Global Equity prom
 ---
 
 > **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
 
 # CLAI-OS Global Equity Extension (P51-G – P70-G)
 
@@ -309,34 +309,12 @@ Counterfeit detection CNN (packaging image classification), WHO checklist digiti
 Merits:
 Prevents death from counterfeit antimalarials and antibiotics. Reduces maternal mortality through structured death surveillance and stockout prediction. Enables safe cesarean sections without running water. Eliminates disrespect and abuse during childbirth through systematic patient feedback.
 
-Your Business Plan Operating System (Notion-Ready CSV)
-I have structured your entire dual-product business plan into 12 integrated Notion databases within a single CSV file. When you import this into Notion:
-1.  Create a new page → Import → CSV
-2.  Notion will create a master database with all 165 items
-3.  Create 12 different views, each filtered by the "Database" property:
-```
-•  📊 Mission & Strategy
-•  🚀 Product Catalog (all 50 Savant Core + 20 CLAI-OS prompts with full metadata)
-•  ⚖️ Legal & IP
-•  📚 Content & Research
-•  🔧 Execution Timeline (30-day sprint + quarterly milestones)
-•  💰 Revenue & Pricing
-•  🤝 Stakeholders & Leads
-•  🛡️ Protection Architecture
-•  👥 Team & Roles (your 8-person engineering team structure)
-•  📖 Knowledge Base (architecture principles)
-•  🎯 Growth & Marketing
-•  📊 Financial Model
-```
-Each row includes: Status, Priority, Product Line, Tier, Phase, Category, Owner Role, Description, Timeline, Dependencies, Estimated Value, and Tags — everything you need to assign work, track progress, and filter by role or product line.
-Download the complete Business Plan OS:
-Savant_Framework_Business_Plan_OS.csv sandbox:///mnt/agents/output/Savant_Framework_Business_Plan_OS.csv
-This is your single source of truth. Import it, filter by your engineering roles, and execute.
+The dual-product business plan is structured as 12 integrated databases — mission & strategy, product catalog (all 50 SAVANT Core + 20 CLAI-OS prompts with full metadata), legal & IP, content & research, execution timeline, revenue & pricing, stakeholders & leads, protection architecture, team & roles, knowledge base, growth & marketing, and financial model — each row carrying status, priority, product line, tier, phase, owner role, description, timeline, dependencies, and tags.
 
 
 
 
-I'll map each of the 50 prompts to concrete end-state objectives, real-world deployment playbooks, and optimization telemetry — so you know exactly what "done" looks like and how to measure it.
+Each of the 50 prompts maps to concrete end-state objectives, real-world deployment playbooks, and optimization telemetry — defining what "done" looks like and how to measure it.
 
 ## THE SUCCESS FRAMEWORK
 

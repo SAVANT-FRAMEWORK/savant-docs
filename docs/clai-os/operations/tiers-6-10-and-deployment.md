@@ -4,7 +4,7 @@ description: Prompt abstracts: Adaptive, Specialized, Strategic, Recursive, Orch
 ---
 
 > **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
 
 # Tiers 6–10: Prompts P26–P50 & Deployment Playbook
 
@@ -550,15 +550,11 @@ The Infinite Loop:
 ```
 ----
 
-## YOUR NEXT MOVE
+## DEPLOYMENT PATHWAYS
 
-Option A: Start Small
-Pick one prompt from Tier 1, fill in your CONTEXT, deploy today. Build momentum.
-Option B: Target a Pain Point
-What's your biggest bottleneck right now? (Slow API? Hallucinating AI? High costs?) I'll map it to the right prompt.
-Option C: Full Portfolio
-Deploy P50 first — the orchestrator — and let it guide which subsystems to build. Highest leverage, highest risk.
-What resonates?
+**Option A — Start Small.** Pick one prompt from Tier 1, fill in the CONTEXT block, deploy. Build momentum.
+**Option B — Target a Pain Point.** Identify the biggest current bottleneck (slow API, hallucinating AI, high costs) and map it to the prompt that addresses it.
+**Option C — Full Portfolio.** Deploy P50 first — the orchestrator — and let it guide which subsystems to build. Highest leverage, highest risk.
 ```
 	◦
 ```
@@ -623,4 +619,4 @@ Testing Strategy	Exome/genome first	Cascaded by infrastructure: South Africa/Ken
 Counseling	Individual genetic counseling	Family-centered + community: Sickle cell = family disease, not individual. Cousin marriage (5–20% in some Muslim African communities) increases recessive risk. Stigma: sickle cell "witchcraft" in some regions, HIV disclosure fears. Community health worker delivery of genetic information. Group counseling (sickle cell support groups). Male counselor for male, female for female
 ```
 
-Here is the CLAI-OS Africa Extension (P51-AF – P70-AF) and its Integration Protocol, architected for the continent's extreme diversity—from Lagos fintech-powered healthtech hubs to South Africa's world-class academic medical centers to DRC's offline-first CHW networks to refugee camps operating on solar tablets.
+The CLAI-OS Africa Extension (P51-AF – P70-AF) and its Integration Protocol are architected for the continent's extreme diversity—from Lagos fintech-powered healthtech hubs to South Africa's world-class academic medical centers to DRC's offline-first CHW networks to refugee camps operating on solar tablets.

@@ -4,7 +4,7 @@ description: Full Africa-adapted prompt series with integration matrix.
 ---
 
 > **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
 
 # CLAI-OS Africa Extension (P51-AF – P70-AF)
 
@@ -1911,8 +1911,6 @@ detox.
 9.  Address gender-based violence
 mental health: 1 in 3 African
 System is currently busy. Please try again later.
-
-I'll continue from where we left off—completing P61-AF (Mental Health Triage) and then finishing P62-AF through P70-AF, followed by the full Integration Protocol for all regions.
 
 ### P61-AF: ADVANCED MENTAL HEALTH TRIAGE (continued)
 
@@ -4318,7 +4316,7 @@ What Changes
 Dimension	US-Centric (P70-US)	African Region (P70-AF)
 Quality Gaps	CLABSI, CAUTI, VAP, HAC	Africa-specific: Infection prevention and control (IPC) failures (hand hygiene <50%, sterilization inadequate, reuse of single-use devices, lack of PPE), medication errors (look-alike/sound-alike, unlabeled syringes, wrong route, wrong patient), surgical site infection (high, humid climate, poor sterilization, no antibiotics or wrong timing), anesthesia complications (ketamine overdose, spinal cord injury from spinal anesthesia, hypothermia, no monitoring), obstetric hemorrhage (PPH — #1 cause maternal death, no oxytocin, no misoprostol, no blood), neonatal sepsis (unsafe delivery practices, no hand hygiene, cord contamination), diagnostic errors (clinical diagnosis only, no labs, wrong assumption — "all fever is malaria"), counterfeit/substandard medicines (30–50% in some markets), equipment failure (no maintenance, donated equipment incompatible), infrastructure failure (no water, no electricity, no oxygen)
 Root Cause	Process failure	System failure: No running water (40% of facilities). No electricity (intermittent generator, solar only). No oxygen (concentrator broken, cylinder empty). No sterilization (autoclave broken, chemical only). No supplies (stockout, expired, donated wrong type). No staff (1 nurse per 50 patients, doctor absenteeism, brain drain). No training (task-shifting without supervision). No accountability (no incident reporting, blame culture, corruption in procurement).
-Interventions	PDSA cycles	Africa-adapted: Simple, low-cost, high-impact. WHO Surgical Safety Checklist (dramatic reduction in mortality — implemented in Malawi, Tanzania, etc.). Clean delivery kit (soap, blade, cord tie, plastic sheet — reduces neonatal tetanus, sepsis). Chlorhexidine cord care. Kangaroo mother care. Active management third stage labor (oxytocin/misoprostol). Hand hygiene (alcohol rub — cheaper, more effective than soap/water when no running water). Check I'll continue from where we left off—completing P70-AF and then delivering the full Integration Protocol for all regions.
+Interventions	PDSA cycles	Africa-adapted: Simple, low-cost, high-impact. WHO Surgical Safety Checklist (dramatic reduction in mortality — implemented in Malawi, Tanzania, etc.). Clean delivery kit (soap, blade, cord tie, plastic sheet — reduces neonatal tetanus, sepsis). Chlorhexidine cord care. Kangaroo mother care. Active management third stage labor (oxytocin/misoprostol). Hand hygiene (alcohol rub — cheaper, more effective than soap/water when no running water).
 ```
 
 ### P70-AF: ADVANCED HEALTHCARE QUALITY & PATIENT SAFETY (continued)

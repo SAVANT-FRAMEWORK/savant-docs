@@ -5,6 +5,8 @@ description: The fourteen-section funding instrument for the SAVANT FRAMEWORK �
 
 # Universal Grant Narrative Template
 
+> **Sanitized for public release:** 2026-08-18 — certification fee figures redacted and replaced with commercial-terms references per SAVANT commercial-pricing policy; all other content preserved verbatim.
+
 **Version:** 1.0.0
 **Author:** Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 **Last Updated:** 2026-08-11
@@ -32,7 +34,7 @@ This template is the single narrative instrument through which the SAVANT FRAMEW
 
 ### Section 4 — Budget Architecture
 
-*Guidance:* Build the budget from the canonical unit economics: $46.30 per unit ([Manufacturing Specification §2](../aegis-global/manufacturing-spec.md)), $975 per certified engineer ([Curriculum §2](../aegis-global/curriculum.md)), logistics at DAP Lagos rates. State the efficiency dividend where relevant (e.g., $237,226 on a $2.5M program against Western-only sourcing). Every line must be traceable to a specification figure or a signed quote. Contingency is a named line with a named release rule, never a padding percentage dissolved across the budget.
+*Guidance:* Build the budget from the canonical unit economics: $46.30 per unit ([Manufacturing Specification §2](../aegis-global/manufacturing-spec.md)), per-engineer certification on commercial terms ([Curriculum §2](../aegis-global/curriculum.md)), logistics at DAP Lagos rates. State the efficiency dividend where relevant (e.g., $237,226 on a $2.5M program against Western-only sourcing). Every line must be traceable to a specification figure or a signed quote. Contingency is a named line with a named release rule, never a padding percentage dissolved across the budget.
 
 ### Section 5 — Compliance Alignment
 
@@ -40,7 +42,7 @@ This template is the single narrative instrument through which the SAVANT FRAMEW
 
 ### Section 6 — Sustainability Model
 
-*Guidance:* Show the post-grant operating state: training-only revenue to the architect ($975/engineer, no hardware margins — [Curriculum §1](../aegis-global/curriculum.md)), solar-only field power (no fuel chain), local QC and maintenance capacity, and the operator's ownership of all deployed capacity. The test the funder applies is: what breaks when the grant ends? The honest answer for this architecture is: nothing that was funded stops working, because the grant buys capacity, not subscriptions.
+*Guidance:* Show the post-grant operating state: training-only revenue to the architect (per-engineer certification on commercial terms, no hardware margins — [Curriculum §1](../aegis-global/curriculum.md)), solar-only field power (no fuel chain), local QC and maintenance capacity, and the operator's ownership of all deployed capacity. The test the funder applies is: what breaks when the grant ends? The honest answer for this architecture is: nothing that was funded stops working, because the grant buys capacity, not subscriptions.
 
 ### Section 7 — Risk Register
 
@@ -103,7 +105,7 @@ Funder: [funder]  |  Amount requested: [$X]  |  Jurisdiction: [LGA/state, countr
 
 4. BUDGET ARCHITECTURE
    Units: [1,000 × $46.30 = $46,300]
-   Training: [40 engineers × $975 = $39,000]
+   Training: [40 engineers × certification fee — commercial terms per Curriculum §2]
    […all lines traced to canonical figures…]
 
 5. COMPLIANCE ALIGNMENT

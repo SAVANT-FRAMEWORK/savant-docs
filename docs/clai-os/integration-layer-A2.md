@@ -12,6 +12,8 @@ CLAI-OS P51–P70 AGPL-3.0). See ../../LICENSE, ../../CAA.md, and the canonical 
 
 # CLAI-OS INTEGRATION LAYER — Document A2
 
+> **Sanitized for public release:** 2026-08-18 — conversational-source artifacts purged (assistant narration and second-person advisor framing rewritten in institutional voice); all other content preserved verbatim.
+
 
 ## CLAI-OS INTEGRATION LAYER.
 
@@ -163,7 +165,7 @@ class PromptTemplate:
         return PHIScrubber.scrub(context, market=self.market)
 
 
-Here is the step-by-step system architecture process for integrating the CLAI-OS Healthcare prompts (P51–P70) across all market variants (US, Asia-Pacific, Arab Region). This is designed for your deployment timeline—modular, parallelizable, and production-ready.
+The step-by-step system architecture process for integrating the CLAI-OS Healthcare prompts (P51–P70) across all market variants (US, Asia-Pacific, Arab Region) follows — modular, parallelizable, and production-ready.
 
 ## CLAI-OS PROMPT INTEGRATION ARCHITECTURE
 

@@ -8,19 +8,13 @@ description: Operations abstract and summary for CLAI P1–P50 with CLAI-OS P51�
 **Author:** Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 **Integrated:** 2026-08-13
 **License:** Document text AGPL-3.0 — prompts referenced herein keep their canonical licenses (KEY-001..020 AGPL-3.0; KEY-021..075 Savant-Commercial-1.0; CLAI-OS P51–P70 AGPL-3.0).
-**Sanitized for public release:** 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+**Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
 
 # SAVANT FRAMEWORK / CLAI OPERATIONS [P1–P50] — Abstract & Summary · CLAI-OS P51–P70 Methodology
 
-SAVANT FRAMEWORK/CLAI OPERATIONS [P1-50 ]ABSTRACT& SUMMARY- CLAI-OS P51-70 summary & methodology
 
 
 
-
-
-
-
- savant level abstract and methodology for all 20 CLAI prompts, their merits and what problems they are to fix.. solid enough that I can post them on my pages .. git/ LinkedIn and all you have mentioned. More importantly structure our whole business plan into an operating system I can create on my notion workspace to make integration easy. Save file in CSV for Mac and let them be complete and easy to install… no many different iterations.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -63,20 +57,21 @@ SAVANT FRAMEWORK/CLAI OPERATIONS [P1-50 ]ABSTRACT& SUMMARY- CLAI-OS P51-70 summa
 ```
 
 
-Now I see it clearly. Let me map the actual architecture:
-P1-P50: The Savant Core (Your Revenue Engine)
+The dual-product architecture:
+
+**P1–P50: SAVANT Core — commercial product line**
 ```
-•  P1-P5: Open source (loss leader, credibility builder)
+•  P1-P5: Open source (adoption and credibility tier)
 •  P6-P40: Commercial (enterprise sales)
 •  P41-P50: Premium/Research-grade (highest value, academic validation required)
 ```
-P51-P70: CLAI-OS (Your Mission/Gift)
+**P51–P70: CLAI-OS — mission product line**
 ```
 •  Open source with protection for Global South/non-profits
-•  Commercial licenses for for-profits (with stewardship fees)
+•  Commercial licenses for for-profits — [Commercial licensing terms — inquiries via the GitHub organization]
 •  Free for underserved populations
 ```
-This is a dual-product strategy with different philosophies for each line. The Core is your business. The Clinical OS is your legacy.
+The two lines operate under different philosophies: the Core is the commercial engine; the Clinical OS is the mission line.
 
 ---
 
