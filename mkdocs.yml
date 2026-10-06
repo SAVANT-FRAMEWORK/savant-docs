@@ -66,6 +66,12 @@ extra:
 
 nav:
   - Home: index.md
+  - PRIME:
+      - Constitutional Orchestration Layer: prime/index.md
+  - Deployment Agents:
+      - Agent Stack & SIP Trigger Matrix: agents/index.md
+  - Authorship:
+      - Canonical Attribution Framework: authorship.md
   - Architecture:
       - SPOS v1.0 — Sovereign Prompt Operating System: architecture/spos-v1.0.md
       - SIP v1.0 — Sovereign Invocation Protocol: architecture/sip-v1.0.md
@@ -84,7 +90,7 @@ nav:
           - Module Structures & Advanced Markets (Asia): clai-os/operations/module-structures-and-advanced-markets.md
           - Regional Extensions — US & Arab Region: clai-os/operations/us-and-arab-extensions.md
   - Prompt Corpus:
-      - 75 Prompts, 15 Tiers — Ledger & License Gate: prompt-corpus.md
+      - Corpus Ledger & License Gate (KEY · S-Tier · PRIME · Agents): prompt-corpus.md
   - AEGIS-NG:
       - Node Types (N-A01 – N-D02): aegis-ng/node-types.md
       - 433 MHz LoRa Mesh Protocol: aegis-ng/mesh-protocol.md
