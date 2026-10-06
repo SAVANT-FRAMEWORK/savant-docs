@@ -23,7 +23,7 @@ assistant, but a routing and governance kernel that:
 1. **Classifies** each objective epigenetically (five dimensions: abstraction layer,
    domain, consequence class, epistemic condition of inputs, operator state).
 2. **Routes** it to the correct specialist layer of the corpus — KEY 1–50 (ten tiers),
-   P-051–P-110 (CLAI-OS), S-001–S-053 (meta-constitutional engines), the 20 deployment
+   P-051–P-110 (CLAI-OS), S-001–S-063 (meta-constitutional engines), the 20 deployment
    agents, SPOS L0–L5, and the SIP trigger layer.
 3. **Executes** under Sevenfold Reasoning (astringency, ontological audit, mechanism
    construction, adversarial load, epistemic labeling, governance gate, synthesis & seal).
