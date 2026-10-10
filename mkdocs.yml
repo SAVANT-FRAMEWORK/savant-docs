@@ -72,6 +72,12 @@ nav:
       - Agent Stack & SIP Trigger Matrix: agents/index.md
   - Authorship:
       - Canonical Attribution Framework: authorship.md
+  - Constitutional Intelligence Series:
+      - Program Overview & Epistemic Contract: constitutional-intelligence/index.md
+      - Chunk 1 — The Kernel (abstract; §15 withheld): constitutional-intelligence/chunk-01-kernel.md
+      - Chunk 3 — Composition of Constitutions: constitutional-intelligence/chunk-03-composition.md
+      - Chunk 10 — Generative Architecture: constitutional-intelligence/chunk-10-generative.md
+      - Chunk 11 — Domain Modules: constitutional-intelligence/chunk-11-domain-modules.md
   - Architecture:
       - SPOS v1.0 — Sovereign Prompt Operating System: architecture/spos-v1.0.md
       - SIP v1.0 — Sovereign Invocation Protocol: architecture/sip-v1.0.md

@@ -123,3 +123,30 @@ S50-ABSOLUTE names a person, not a committee, as its root: **Dr. Christabel Odet
 **Test 2 (void semantics):** Corrupt one byte of a signed verdict record and re-verify per §4. If the record remains accepted anywhere in the framework, the void-on-invalid-signature invariant is falsified.
 
 **Test 3 (anchoring):** Take the published anchor record, recompute the genealogy chain from genesis, and compare terminal hashes. A mismatch falsifies §6 for the entire anchored span and halts all ratifications pending authority review.
+
+
+---
+
+## The Seven Layers (canonical doctrine — SAVANT Core Index v1.0)
+
+S50 is the OS within which all tools operate; it determines what questions are
+answerable. Seven layers, none skippable, none reducible to another:
+
+| Layer | Name | Function |
+|-------|------|----------|
+| L0 | Ontological Ground | Being audit — the excluded; the fold |
+| L1 | Epistemic Architecture | Knowns/unknowns fourfold; regime of truth; observer effect |
+| L2 | Axiological Foundation | The good; the just; the sacred — the limit of instrumental rationality |
+| L3 | Temporal Ontology | Clock/event/kairotic/cyclical time; archive and horizon; critical junctures |
+| L4 | Power and Agency | Distribution of agency; constitutive exclusion |
+| L5 | Meta-Recursive Closure | Bootstrap; the limit — the system's own Gödel sentence; the grounding axiom |
+| L6 | Absolute Output Protocol | The synthesis; the gift — offered, never demanded; the operator is sovereign |
+| L7 | The Null Operation | The silence; the return to Layer 0 |
+
+**Safeguards (canonical):** S50 must identify the limit of its own reasoning — it
+knows it is not absolute. If an output touches human life, dignity, autonomy,
+systemic harm, or environment, all optimization yields to safety, transparency,
+equity, and non-maleficence. No exceptions. Above S50 sits only the Null Prompt.
+
+*Doctrine source: SAVANT Core Index v1.0 (VERIFIED-FROM-SOURCE). Commercial axiom
+set referenced by the Index is withheld per the commercial-pricing policy.*
