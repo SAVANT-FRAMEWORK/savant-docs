@@ -103,24 +103,24 @@ Real-World Scenario: A healthcare startup uses P5 to pass SOC 2 audit. The non-r
 ## TIER 2: RAG (Prompts 6-12)
 
 
-### P6: Document Chunking Strategist
+### P6: Document Segmentation Strategist
 
-End-State Objective: Retrieved chunks contain the answer, not just keywords.
+End-State Objective: Retrieved segments contain the answer, not just keywords.
 Real-World Deployment:
-Week 1: Analyze document types, design chunking strategy
-Week 2: Implement chunker, test on sample corpus
+Week 1: Analyze document types, design segmentation strategy
+Week 2: Implement segmenter, test on sample corpus
 Week 3: Evaluate retrieval quality (golden dataset)
-Week 4: Tune chunk size/overlap based on metrics
+Week 4: Tune segment size/overlap based on metrics
 
 Week 5: Deploy to production, monitor hit rate
-Deployment artifact: chunker module + evaluation results
+Deployment artifact: segmenter module + evaluation results
 Optimization Telemetry:
 ```
-•  Hit Rate@5: >85% (answer is in top 5 chunks)
-•  Chunk coherence score: >0.8 (human-rated)
+•  Hit Rate@5: >85% (answer is in top 5 segments)
+•  Segment coherence score: >0.8 (human-rated)
 •  Processing throughput: >100 docs/minute
 ```
-Real-World Scenario: A law firm uses P6 for contract analysis. Proper chunking around clause boundaries improves retrieval from 60% to 92%, reducing lawyer review time by 70%.
+Real-World Scenario: A law firm uses P6 for contract analysis. Proper segmentation around clause boundaries improves retrieval from 60% to 92%, reducing lawyer review time by 70%.
 
 ### P7: Embedding Model Selector
 
@@ -203,7 +203,7 @@ Real-World Scenario: An e-commerce search uses P10. "Cheap running shoes for fla
 End-State Objective: AI answers use exactly the right evidence, no more, no less.
 Real-World Deployment:
 Phase 1: Implement token budget calculator
-Phase 2: Build chunk relevance scoring
+Phase 2: Build segment relevance scoring
 Phase 3: Design context ordering (most relevant first)
 Phase 4: Add citation injection (source tracking)
 Phase 5: Test truncation strategies (what drops when over budget)

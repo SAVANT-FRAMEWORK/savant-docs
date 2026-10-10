@@ -1,13 +1,13 @@
 ---
-title: Chunk 11 — The Domain Modules
-description: P71–P90 compiled against the finished kernel — each module an instance of the constitutional runtime, not a separate invention universe.
+title: The Domain Modules — White Paper Nº 11
+description: Instances of the constitutional runtime — each module compiled against the finished kernel, not a separate invention universe.
 ---
 
-# Chunk 11 — The Domain Modules: Instances of the Constitutional Runtime
+# The Domain Modules: Instances of the Constitutional Runtime — White Paper Nº 11
 
-**Version 1.0 · 2026-10-06 · C0 INFORMATIONAL — mathematical specification; closes the eleven-chunk program.**
+**Version 1.0 · 2026-10 · C0 INFORMATIONAL — mathematical specification; all properties stated as proof obligations until discharged.**
 
-The final chunk: the compilation discipline for the module layer. P71–P90 are compiled
+The module paper: the compilation discipline for the module layer. P71–P90 are compiled
 against the finished kernel — each module an instance of the constitutional runtime,
 not a separate invention universe. The module schema and its nine slots, the
 compilation contract with its acceptance tests, the module registry and composition
@@ -26,7 +26,7 @@ survivability dossier and constraint objects, and climbs the same gauntlet as
 everything else the architecture has ever made. One constitutional mechanism,
 multiple empirical domains.
 
-**[Full text (PDF)](assets/chunk-11-domain-modules-v1.0.pdf)**
+**[Full text (PDF)](assets/paper-11-domain-modules-v1.0.pdf)** — 32 pp., proof obligations throughout.
 
 ## Falsifiability Test
 

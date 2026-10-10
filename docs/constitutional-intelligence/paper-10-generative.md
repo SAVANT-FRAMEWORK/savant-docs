@@ -1,13 +1,13 @@
 ---
-title: Chunk 10 — Constitutional Generative Architecture
+title: Constitutional Generative Architecture — White Paper Nº 10
 description: Protocol generation and self-ablation — the gated lifecycle; no generated protocol becomes constitutional merely because a model produced it.
 ---
 
-# Chunk 10 — Constitutional Generative Architecture: Protocol Generation and Self-Ablation
+# Constitutional Generative Architecture: Protocol Generation and Self-Ablation — White Paper Nº 10
 
-**Version 1.0 · 2026-10-06 · C0 INFORMATIONAL — mathematical specification; all properties stated as proof obligations until discharged.**
+**Version 1.0 · 2026-10 · C0 INFORMATIONAL — mathematical specification; all properties stated as proof obligations until discharged.**
 
-The generation chunk answers the question every predecessor deferred: *may the
+This paper answers the question every predecessor deferred: *may the
 architecture create?* It integrates dynamic protocol generation, meta-ablation,
 meta-cognition, epistemic hygiene, and adaptive curriculum design into a single
 constitutional order. The protocol lifecycle — Generated → Validated → Activated →
@@ -22,7 +22,7 @@ under which it adds them, because a deletion error is silent where a generation 
 is loud. This is where SAVANT addresses self-modifying intelligence without permitting
 unconstrained self-modification.
 
-**[Full text (PDF)](assets/chunk-10-constitutional-generative-architecture-v1.0.pdf)**
+**[Full text (PDF)](assets/paper-10-constitutional-generative-architecture-v1.0.pdf)** — 38 pp., proof obligations throughout.
 
 ## Falsifiability Test
 

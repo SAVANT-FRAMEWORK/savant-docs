@@ -563,7 +563,7 @@ The Infinite Loop:
 ```
 Tier	Prompts	Domain	Core Leverage
 Foundation	1-5	Architecture, API, DB, Async, Docker	Solid ground
-RAG	6-12	Chunking, Embedding, Vectors, Search, Context, Eval	Knowledge grounding
+RAG	6-12	Segmentation, Embedding, Vectors, Search, Context, Eval	Knowledge grounding
 Agents	13-16	State Machines, Tools, Orchestration, Human-in-Loop	Autonomous action
 Production	17-20	Performance, Cost, Reliability, Security	Operational excellence
 Meta-Cognitive	21-25	Auto-optimization, Load distribution, Attention, Tokens, Truth	Self-improvement
