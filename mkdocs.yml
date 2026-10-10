@@ -75,13 +75,29 @@ nav:
   - Constitutional Intelligence Series:
       - Program Overview & Epistemic Contract: constitutional-intelligence/index.md
       - Chunk 1 — The Kernel (abstract; §15 withheld): constitutional-intelligence/chunk-01-kernel.md
+      - Chunk 2 — Authority Transition Algebra: constitutional-intelligence/chunk-02-authority-transition.md
       - Chunk 3 — Composition of Constitutions: constitutional-intelligence/chunk-03-composition.md
+      - Chunk 4 — Negative-Space Intelligence: constitutional-intelligence/chunk-04-negative-space.md
+      - Chunk 5 — Bounded Metacognition: constitutional-intelligence/chunk-05-bounded-metacognition.md
+      - Chunk 6 — Epistemic Governance: constitutional-intelligence/chunk-06-epistemic-governance.md
+      - Chunk 7 — Objective Transition: constitutional-intelligence/chunk-07-objective-transition.md
+      - Chunk 8 — Survivability: constitutional-intelligence/chunk-08-survivability.md
+      - Chunk 9 — Resource-Constrained Intelligence: constitutional-intelligence/chunk-09-resource-constrained.md
       - Chunk 10 — Generative Architecture: constitutional-intelligence/chunk-10-generative.md
       - Chunk 11 — Domain Modules: constitutional-intelligence/chunk-11-domain-modules.md
+      - Chunk 12 — Claim Architecture (abstract; full text withheld): constitutional-intelligence/chunk-12-claim-architecture.md
+      - Chunk 13 — The Adversarial Instrument: constitutional-intelligence/chunk-13-adversarial-instrument.md
+      - Chunk 14 — The Executable Constitution: constitutional-intelligence/chunk-14-executable-constitution.md
+  - Research Blueprints:
+      - Series Overview: blueprints/index.md
+      - The Legitimacy Ledger: blueprints/legitimacy-ledger.md
+      - The Falsifiable Clinic: blueprints/falsifiable-clinic.md
+      - The Registered Frontier: blueprints/registered-frontier.md
   - Architecture:
       - SPOS v1.0 — Sovereign Prompt Operating System: architecture/spos-v1.0.md
       - SIP v1.0 — Sovereign Invocation Protocol: architecture/sip-v1.0.md
       - S50-ABSOLUTE — Governance Engine: architecture/s50-absolute.md
+      - Unified Corpus Integration v2.0: architecture/unified-corpus-integration.md
   - CLAI-OS:
       - Deterministic Clinical Engine: clai-os/deterministic-engine.md
       - FHIR R4 Native Resource Layer: clai-os/fhir-r4-native.md
