@@ -74,25 +74,25 @@ nav:
       - Canonical Attribution Framework: authorship.md
   - Constitutional Intelligence Series:
       - Published White Papers — Catalog & Epistemic Contract: constitutional-intelligence/index.md
-      - Paper Nº 1 — Constitutional Intelligence (abstract; one section withheld): constitutional-intelligence/paper-01-kernel.md
-      - Paper Nº 2 — The Authority Transition Algebra: constitutional-intelligence/paper-02-authority-transition.md
-      - Paper Nº 3 — The Composition of Constitutions: constitutional-intelligence/paper-03-composition.md
-      - Paper Nº 4 — Negative-Space Intelligence: constitutional-intelligence/paper-04-negative-space.md
-      - Paper Nº 5 — Bounded Metacognition: constitutional-intelligence/paper-05-bounded-metacognition.md
-      - Paper Nº 6 — Epistemic Governance: constitutional-intelligence/paper-06-epistemic-governance.md
-      - Paper Nº 7 — Objective Transition: constitutional-intelligence/paper-07-objective-transition.md
-      - Paper Nº 8 — Survivability: constitutional-intelligence/paper-08-survivability.md
-      - Paper Nº 9 — Resource-Constrained Intelligence: constitutional-intelligence/paper-09-resource-constrained.md
-      - Paper Nº 10 — Constitutional Generative Architecture: constitutional-intelligence/paper-10-generative.md
-      - Paper Nº 11 — The Domain Modules: constitutional-intelligence/paper-11-domain-modules.md
-      - Paper Nº 12 — The Claim Architecture (abstract; withheld pending IP review): constitutional-intelligence/paper-12-claim-architecture.md
-      - Paper Nº 13 — The Adversarial Instrument: constitutional-intelligence/paper-13-adversarial-instrument.md
-      - Paper Nº 14 — The Executable Constitution: constitutional-intelligence/paper-14-executable-constitution.md
+      - Paper 0 — Constitutional Intelligence (reserved; withheld pending IP review): constitutional-intelligence/paper-01-kernel.md
+      - Paper 1 — The Authority Transition Algebra: constitutional-intelligence/paper-02-authority-transition.md
+      - Paper 2 — The Composition of Constitutions: constitutional-intelligence/paper-03-composition.md
+      - Paper 3 — Negative-Space Intelligence: constitutional-intelligence/paper-04-negative-space.md
+      - Paper 4 — Bounded Metacognition: constitutional-intelligence/paper-05-bounded-metacognition.md
+      - Paper 5 — Epistemic Governance: constitutional-intelligence/paper-06-epistemic-governance.md
+      - Paper 6 — Objective Transition: constitutional-intelligence/paper-07-objective-transition.md
+      - Paper 7 — Survivability: constitutional-intelligence/paper-08-survivability.md
+      - Paper 8 — Resource-Constrained Intelligence: constitutional-intelligence/paper-09-resource-constrained.md
+      - Paper 9 — Constitutional Generative Architecture: constitutional-intelligence/paper-10-generative.md
+      - Paper 10 — The Domain Modules: constitutional-intelligence/paper-11-domain-modules.md
+      - Paper 11 — The Adversarial Instrument: constitutional-intelligence/paper-13-adversarial-instrument.md
+      - Paper 12 — The Executable Constitution: constitutional-intelligence/paper-14-executable-constitution.md
+      - Paper 13 — The Claim Architecture (reserved; withheld pending IP review): constitutional-intelligence/paper-12-claim-architecture.md
   - Research Blueprints:
       - Series Overview: blueprints/index.md
-      - The Legitimacy Ledger: blueprints/legitimacy-ledger.md
-      - The Falsifiable Clinic: blueprints/falsifiable-clinic.md
-      - The Registered Frontier: blueprints/registered-frontier.md
+      - White Paper Nº 1 — The Legitimacy Ledger: blueprints/legitimacy-ledger.md
+      - White Paper Nº 2 — The Falsifiable Clinic: blueprints/falsifiable-clinic.md
+      - White Paper Nº 3 — The Registered Frontier: blueprints/registered-frontier.md
   - Architecture:
       - SPOS v1.0 — Sovereign Prompt Operating System: architecture/spos-v1.0.md
       - SIP v1.0 — Sovereign Invocation Protocol: architecture/sip-v1.0.md

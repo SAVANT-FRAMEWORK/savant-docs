@@ -1,9 +1,9 @@
 ---
-title: Constitutional Intelligence (Kernel) — White Paper Nº 1
+title: Constitutional Intelligence (Kernel) — Paper 0 (reserved; withheld pending IP review)
 description: The Machine-Authority Kernel — definitions, axioms, state variables, authority algebra, invariants, transition rules, conflict operators, falsifiable hypotheses.
 ---
 
-# Constitutional Intelligence: A Formal Specification of Bounded Machine Authority Under Uncertainty and Constraint — White Paper Nº 1
+# Constitutional Intelligence: A Formal Specification of Bounded Machine Authority Under Uncertainty and Constraint — Paper 0 (reserved)
 
 **Version 1.0 · 2026-10 · C0 INFORMATIONAL — design specification, unvalidated until the stated experiments execute.**
 
@@ -20,9 +20,8 @@ architecture, not a defended one.
 
 ## Public-treatment note
 
-This paper is published as an **abstract only**: one section (Candidate Technical
-Mechanisms / Patent Family Map) is **withheld pending IP review**, and the full text
-accompanies it under the same ruling. The remaining sections constitute the verifiable
+This paper is published as an **abstract only**: the section on candidate technical
+mechanisms and the full text are **withheld pending IP review**. The remaining sections constitute the verifiable
 core and enter public release on completion of that review.
 
 ## Falsifiability Test

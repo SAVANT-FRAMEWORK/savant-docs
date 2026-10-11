@@ -1,9 +1,9 @@
 ---
 title: Research Blueprints
-description: The Revolutionary Research Blueprint series — instrument-grade research programs with registered hypotheses and sealed scoring.
+description: The SAVANT Research Blueprint Series — instrument-grade research programs with registered hypotheses and sealed scoring.
 ---
 
-# Revolutionary Research Blueprints
+# SAVANT Research Blueprint Series
 
 **Author:** Dr. Christabel Odeta — SAVANT / CLAI-OS / AEGIS-GLOBAL
 **Version:** 1.0 · 2026-10
@@ -14,9 +14,9 @@ which it fails — before any result is claimed. Three programs are published:
 
 | Blueprint | Instrument | Status |
 |-----------|-----------|--------|
-| [The Legitimacy Ledger](legitimacy-ledger.md) | DPT impossibility theorem · oscillation index Ω · legitimacy-adjusted cost of capital | [Full PDF](assets/blueprint-legitimacy-ledger-v1.0.pdf) |
-| [The Falsifiable Clinic](falsifiable-clinic.md) | OCCR deterministic-first specification · conformance class · equity-parity covenant | [Full PDF](assets/blueprint-falsifiable-clinic-v1.0.pdf) |
-| [The Registered Frontier](registered-frontier.md) | PR-DPT-2026-001 · Ω-family leading indicators · blind-scored sealed process | [Full PDF](assets/blueprint-registered-frontier-v1.0.pdf) |
+| [White Paper Nº 1 — The Legitimacy Ledger](legitimacy-ledger.md) | DPT impossibility theorem · oscillation index Ω · legitimacy-adjusted cost of capital | [Full PDF](assets/SAVANT-Blueprint-01-Legitimacy-Ledger-v1.0.pdf) |
+| [White Paper Nº 2 — The Falsifiable Clinic](falsifiable-clinic.md) | OCCR deterministic-first specification · conformance class · equity-parity covenant | [Full PDF](assets/SAVANT-Blueprint-02-Falsifiable-Clinic-v1.0.pdf) |
+| [White Paper Nº 3 — The Registered Frontier](registered-frontier.md) | Registered protocol · Ω-family leading indicators · blind-scored sealed process | [Full PDF](assets/SAVANT-Blueprint-03-Registered-Frontier-v1.0.pdf) |
 
 ## Falsifiability Test
 

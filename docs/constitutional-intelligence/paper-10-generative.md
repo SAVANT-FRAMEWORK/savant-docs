@@ -1,9 +1,9 @@
 ---
-title: Constitutional Generative Architecture — White Paper Nº 10
+title: Constitutional Generative Architecture — White Paper 9
 description: Protocol generation and self-ablation — the gated lifecycle; no generated protocol becomes constitutional merely because a model produced it.
 ---
 
-# Constitutional Generative Architecture: Protocol Generation and Self-Ablation — White Paper Nº 10
+# Constitutional Generative Architecture: Protocol Generation and Self-Ablation — White Paper 9
 
 **Version 1.0 · 2026-10 · C0 INFORMATIONAL — mathematical specification; all properties stated as proof obligations until discharged.**
 
@@ -22,7 +22,7 @@ under which it adds them, because a deletion error is silent where a generation 
 is loud. This is where SAVANT addresses self-modifying intelligence without permitting
 unconstrained self-modification.
 
-**[Full text (PDF)](assets/paper-10-constitutional-generative-architecture-v1.0.pdf)** — 38 pp., proof obligations throughout.
+**[Full text (PDF)](assets/SAVANT-White-Paper-09-Constitutional-Generative-Architecture-v1.0.pdf)** — 38 pp., proof obligations throughout.
 
 ## Falsifiability Test
 

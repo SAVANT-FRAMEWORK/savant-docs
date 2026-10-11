@@ -1,9 +1,9 @@
 ---
-title: The Domain Modules — White Paper Nº 11
+title: The Domain Modules — White Paper 10
 description: Instances of the constitutional runtime — each module compiled against the finished kernel, not a separate invention universe.
 ---
 
-# The Domain Modules: Instances of the Constitutional Runtime — White Paper Nº 11
+# The Domain Modules: Instances of the Constitutional Runtime — White Paper 10
 
 **Version 1.0 · 2026-10 · C0 INFORMATIONAL — mathematical specification; all properties stated as proof obligations until discharged.**
 
@@ -26,7 +26,7 @@ survivability dossier and constraint objects, and climbs the same gauntlet as
 everything else the architecture has ever made. One constitutional mechanism,
 multiple empirical domains.
 
-**[Full text (PDF)](assets/paper-11-domain-modules-v1.0.pdf)** — 32 pp., proof obligations throughout.
+**[Full text (PDF)](assets/SAVANT-White-Paper-10-Domain-Modules-v1.0.pdf)** — 32 pp., proof obligations throughout.
 
 ## Falsifiability Test
 
