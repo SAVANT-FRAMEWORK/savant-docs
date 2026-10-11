@@ -47,4 +47,5 @@ word "proven" is reserved for discharged proof obligations.
 | 11 | The Adversarial Instrument — The SAVANT Benchmark for Machine Authority | [Abstract](paper-13-adversarial-instrument.md) + [full PDF](assets/SAVANT-White-Paper-11-Adversarial-Instrument-v1.0.pdf) |
 | 12 | The Executable Constitution — The CIS and the SAVANT Reference Runtime | [Abstract](paper-14-executable-constitution.md) + [full PDF](assets/SAVANT-White-Paper-12-Executable-Constitution-v1.0.pdf) |
 | 13 | The Claim Architecture — Patent Families over the Formal Kernel | [Abstract published](paper-12-claim-architecture.md) — **Paper 13 is reserved**: full text withheld pending IP review (same ruling class as Paper 0) |
+| **Annex I** | **First Executed Results — Model-Checked Algebra, B-21 Benchmark, Real-Data Frontier Test** | [Summary](evidence-annex-1.md) + [full PDF](assets/SAVANT-Evidence-Annex-I-First-Executed-Results-v1.0.pdf) |
 
