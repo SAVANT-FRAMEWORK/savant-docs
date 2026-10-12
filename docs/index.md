@@ -68,4 +68,4 @@ is published on institutional surfaces. Never reversed.
 
 **Claim:** This archive is complete, governed, and transferable.
 
-**Test:** Select any specification in the navigation. Identify a load-bearing claim within it (a layer authority, a trigger route, a unit cost, a checkpoint class). Attempt to falsify it against the text alone, without contacting the author. If the claim cannot be located, cannot be bounded, or cannot be tested, the archive has failed this test and the defect must be recorded as a signed REGRESSION record under S50-ABSOLUTE checkpoint class C.
+**Test:** Select any specification in the navigation. Identify a load-bearing claim within it (a layer authority, a trigger route, a QC gate, a checkpoint class). Attempt to falsify it against the text alone, without contacting the author. If the claim cannot be located, cannot be bounded, or cannot be tested, the archive has failed this test and the defect must be recorded as a signed REGRESSION record under S50-ABSOLUTE checkpoint class C.

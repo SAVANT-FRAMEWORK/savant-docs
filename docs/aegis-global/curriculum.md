@@ -88,8 +88,7 @@ All five gates re-verified under observation on unfamiliar units. Certification 
 
 ## 4. Multi-Language Delivery 
 
-The curriculum is delivered in **English, French,
-Hausa, igbo, yoruba and other major international languages. This is a delivery requirement, not a courtesy: an engineer who must translate instruction mentally while holding a soldering iron is an engineer being trained worse.
+The curriculum is delivered in **English, French, Hausa, Igbo, Yoruba**, and other major international languages. This is a delivery requirement, not a courtesy: an engineer who must translate instruction mentally while holding a soldering iron is an engineer being trained worse.
 
 - All instructional materials, station cards, and gate checklists exist in all six languages; translations are versioned artifacts and are regression checked like any other governed document — a translated checklist that drops a step is a class-C defect.
 - Instructors are recruited from prior cohorts wherever possible, so that instruction in each language is delivered by an engineer, not an interpreter.

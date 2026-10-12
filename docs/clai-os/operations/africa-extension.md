@@ -1907,13 +1907,6 @@ services, not medical
 detox.
 9.  Address gender-based violence
 mental health: 1 in 3 African
-System is currently busy. Please try again later.
-
-### P61-AF: ADVANCED MENTAL HEALTH TRIAGE (continued)
-
-New Action Items (continued)
-9. Address gender-based violence
-mental health: 1 in 3 African
 women experience physical/sexual
 violence. AI must:
 ```

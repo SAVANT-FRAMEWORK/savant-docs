@@ -127,26 +127,9 @@ S50-ABSOLUTE names a person, not a committee, as its root: **Dr. Christabel Odet
 
 ---
 
-## The Seven Layers (canonical doctrine — SAVANT Core Index v1.0)
+## Canonical Safeguards
 
-S50 is the OS within which all tools operate; it determines what questions are
-answerable. Seven layers, none skippable, none reducible to another:
-
-| Layer | Name | Function |
-|-------|------|----------|
-| L0 | Ontological Ground | Being audit — the excluded; the fold |
-| L1 | Epistemic Architecture | Knowns/unknowns fourfold; regime of truth; observer effect |
-| L2 | Axiological Foundation | The good; the just; the sacred — the limit of instrumental rationality |
-| L3 | Temporal Ontology | Clock/event/kairotic/cyclical time; archive and horizon; critical junctures |
-| L4 | Power and Agency | Distribution of agency; constitutive exclusion |
-| L5 | Meta-Recursive Closure | Bootstrap; the limit — the system's own Gödel sentence; the grounding axiom |
-| L6 | Absolute Output Protocol | The synthesis; the gift — offered, never demanded; the operator is sovereign |
-| L7 | The Null Operation | The silence; the return to Layer 0 |
-
-**Safeguards (canonical):** S50 must identify the limit of its own reasoning — it
-knows it is not absolute. If an output touches human life, dignity, autonomy,
-systemic harm, or environment, all optimization yields to safety, transparency,
-equity, and non-maleficence. No exceptions. Above S50 sits only the Null Prompt.
-
-*Doctrine source: SAVANT Core Index v1.0 (VERIFIED-FROM-SOURCE). Commercial axiom
-set referenced by the Index is withheld per the commercial-pricing policy.*
+S50 must identify the limit of its own reasoning — it knows it is not absolute.
+If an output touches human life, dignity, autonomy, systemic harm, or
+environment, all optimization yields to safety, transparency, equity, and
+non-maleficence. No exceptions.

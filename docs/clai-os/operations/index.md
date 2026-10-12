@@ -24,6 +24,6 @@ This abstract & summary is split along its own section boundaries:
 | [Global Equity Extension (P51-G – P70-G)](global-equity-extension.md) | 20 Global Equity abstracts & methodologies · The Success Framework |
 | [Tiers 1–5 (P1–P25)](tiers-1-5.md) | Foundation · RAG · Agent Orchestration · Production · Meta-Cognitive |
 | [Tiers 6–10 (P26–P50) & Deployment Playbook](tiers-6-10-and-deployment.md) | Adaptive · Specialized · Strategic · Recursive · Orchestration · Deployment Playbook |
-| [Africa Extension (P51-AF – P70-AF)](africa-extension.md) | Full Africa-adapted prompt series · Africa Integration Matrix |
+| [Africa Extension (P51-AF – P70-AF)](africa-extension.md) | Africa-adapted abstracts & summary · Africa Integration Matrix |
 | [Module Structures & Advanced Markets (Asia)](module-structures-and-advanced-markets.md) | Module structures & integrations (P51-G/P51-AM series) · Tiered deployment architectures · Advanced Markets governance · Asian-centric series |
 | [Regional Extensions — US & Arab Region](us-and-arab-extensions.md) | US-centric advanced markets extension · Module abstracts · Arab region extension · Integration matrices |
