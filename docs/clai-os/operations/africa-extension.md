@@ -3,9 +3,6 @@ title: CLAI-OS Africa Extension (P51-AF – P70-AF)
 description: Full Africa-adapted prompt series with integration matrix.
 ---
 
-> **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
-
 # CLAI-OS Africa Extension (P51-AF – P70-AF)
 
 ## CLAI-OS AFRICA EXTENSION
@@ -53,7 +50,7 @@ function on:
 ```
 •  Android tablet (Samsung A series,
 ```
-$150) with TensorFlow Lite
+) with TensorFlow Lite
 ```
 •  Paper register with QR code
 ```
@@ -418,7 +415,7 @@ urgently
 What Changes
 ```
 Dimension	US-Centric (P53-US)	African Region (P53-AF)
-Modalities	CT, MRI, PET, high-res DICOM	Africa-adapted: Portable ultrasound (Lumify, Butterfly iQ — $2,000, handheld, tablet-connected), X-ray (basic, often no PACS), CT (tertiary only: South Africa, Egypt, Nigeria, Kenya, Morocco), MRI (rare, academic centers), smartphone fundoscopy (Peek, mFUNDUS for retinopathy), AI-assisted malaria microscopy (deep learning for parasite count), digital pathology (telepathology to diaspora)
+Modalities	CT, MRI, PET, high-res DICOM	Africa-adapted: Portable ultrasound (Lumify, Butterfly iQ — handheld, tablet-connected), X-ray (basic, often no PACS), CT (tertiary only: South Africa, Egypt, Nigeria, Kenya, Morocco), MRI (rare, academic centers), smartphone fundoscopy (Peek, mFUNDUS for retinopathy), AI-assisted malaria microscopy (deep learning for parasite count), digital pathology (telepathology to diaspora)
 Prior Studies	PACS comparison, RadLex	Rarely available: Most patients have no prior imaging. CHW-carried paper records with hand-drawn diagrams. AI must function without comparison. When available: basic DICOM on USB stick, cloud PACS in South Africa/Kenya/Nigeria
 Critical Findings	PE, dissection, stroke	Africa-critical: Cerebral malaria (no imaging — clinical), tuberculous meningitis (basal enhancement on CT if available), HIV-related CNS opportunistic infections (toxoplasma ring-enhancing lesions, PML non-enhancing), Burkitt lymphoma (jaw mass, abdominal), obstetric emergencies (ruptured ectopic, placental abruption — ultrasound), trauma (hemothorax, hemoperitoneum — FAST), hydrocephalus (TB, cysticercosis), retinopathy of prematurity (telemedicine screening)
 Reporting Style	ACR guidelines, BI-RADS, Lung-RADS	Simplified + WHO-based: No ACR in most of Africa. WHO Basic Radiological System (WHO-BRS) for X-ray interpretation. FIGO for obstetric ultrasound. ICROP for ROP. Simplified structured reports (findings + impression + recommendation)
@@ -1029,7 +1026,7 @@ by African scientists
 ```
 •  Benefit-sharing: 10% of
 ```
-commercial revenue to
+commercial proceeds to
 African healthcare
 infrastructure
 ```
@@ -1600,7 +1597,7 @@ Modality	Video (synchronous)	Africa-dominant: Voice calls (GSM/2G — lowest com
 Pre-Visit Data	EHR + devices	Africa-adapted: CHW assessment (paper or tablet). Patient-reported symptoms (voice call). Photo (smartphone if available). Basic vitals (CHW: temperature, pulse, BP if device available, weight). No labs, no imaging, no prior records
 During Visit	Real-time video	Mixed: Voice call to doctor (South Africa, Kenya, Nigeria telemedicine startups — Babylon, Vezeeta, MyDawa, mPharma). Async SMS consult (doctor replies within 4–24 hours). CHW-mediated: CHW describes patient, doctor advises, CHW implements. Group telemedicine: community health day with video link to specialist
 Post-Visit	EHR write-back	Multi-modal: SMS care plan ("Take 2 tablets morning and night for 5 days"). WhatsApp voice note (medication instructions in Swahili). Paper card update (CHW writes). CHW follow-up visit scheduled. Community radio reminder ("If you took malaria medicine, finish all tablets even if you feel better")
-Remote Monitoring	Dexcom, smart scale	Africa-adapted: Basic BP monitor (Omron, $30). Glucometer (strip cost is barrier — AI suggests most cost-effective). Weighing scale (mid-upper arm circumference for malnutrition). Pregnancy wheel (gestational age). Fetal kick counter (paper). HIV viral load (annual, not continuous). TB treatment supporter (DOTS — directly observed therapy, person not device)
+Remote Monitoring	Dexcom, smart scale	Africa-adapted: Basic BP monitor (Omron). Glucometer (strip cost is barrier — AI suggests most cost-effective). Weighing scale (mid-upper arm circumference for malnutrition). Pregnancy wheel (gestational age). Fetal kick counter (paper). HIV viral load (annual, not continuous). TB treatment supporter (DOTS — directly observed therapy, person not device)
 ```
 New Action Items
 P60-AF EXTENDED ACTIONS:
@@ -1641,7 +1638,7 @@ endpoint":
 •  CHW examines patient
 ```
 (palpation, auscultation
-with $5 stethoscope,
+with stethoscope,
 temperature)
 ```
 •  CHW calls doctor via
@@ -3115,7 +3112,7 @@ Device Class	Class I/II/III FDA	Multi-class: South Africa SAHPRA, Nigeria NAFDAC
 Validation	10,000 image dataset	Africa-mandatory validation: Skin lesion AI must validate on Fitzpatrick V–VI (African pigmentation ranges from fair North African to very dark Central/West African). Ophthalmology AI must validate on angle-closure glaucoma (higher in Africans — shallow anterior chamber, different optic disc anatomy). Ultrasound AI must validate on obstetric, trauma, pneumonia (primary African applications). Malaria microscopy AI must validate on thick smears (not thin smears — standard African practice).
 Cybersecurity	Hospital network	Mixed: South Africa/Kenya/Nigeria/Egypt = hospital network (similar to West). Rural = no network, offline-first. Conflict = no network. Solar-powered, low-bandwidth, intermittent connectivity.
 Lifecycle	IEC 62304 Class C	Multi-standard: IEC 62304 + SAHPRA QMS + NAFDAC + PPB + WHO prequalification. Local manufacturing emerging (South Africa, Egypt, Morocco, Nigeria — 3D printing, frugal innovation).
-Cost	$50K+ per unit	Africa spectrum: South Africa/Egypt/Morocco = $10K–30K (local/regional manufacturing). Kenya/Nigeria/Ghana = $5K–15K (frugal innovation, refurbished). Rural = $500–2K (Android tablet + peripherals). Conflict = $0 (NGO-donated, refurbished). AI must validate across cost tiers.
+Cost	High per-unit cost	Africa spectrum: South Africa/Egypt/Morocco = mid-tier (local/regional manufacturing). Kenya/Nigeria/Ghana = lower-tier (frugal innovation, refurbished). Rural = minimal (Android tablet + peripherals). Conflict = donated/refurbished. AI must validate across cost tiers.
 ```
 New Action Items
 P66-AF EXTENDED ACTIONS:
@@ -3609,10 +3606,10 @@ bandage)
 •  Prosthetic fitting:
 ```
 ICRC standard (polypropylene,
-durable, $50–100,
+durable,
 field-repairable) vs.
 3D-printed (custom,
-local, $20–50)
+local)
 ```
 •  Wheelchair: rough
 ```
@@ -3702,7 +3699,7 @@ vocational training
 ```
 •  Social protection:
 ```
-disability grants
+disability benefits
 (South Africa, Kenya),
 NGO support, family
 support
@@ -4326,7 +4323,7 @@ What Changes (continued)
 Dimension	US-Centric (P70-US)	African Region (P70-AF)
 Interventions	PDSA cycles	Africa-adapted: Simple, low-cost, high-impact. WHO Surgical Safety Checklist (dramatic reduction in mortality — implemented in Malawi, Tanzania, etc.). Clean delivery kit (soap, blade, cord tie, plastic sheet — reduces neonatal tetanus, sepsis). Chlorhexidine cord care. Kangaroo mother care. Active management third stage labor (oxytocin/misoprostol). Hand hygiene (alcohol rub — cheaper, more effective than soap/water when no running water). Checklists (not technology — paper, laminated, wall-mounted). Peer review (nurse-to-nurse, doctor-to-doctor — no blame, learning focus). Community accountability (community scorecards, citizen feedback).
 Measurement	SPC charts, CMS metrics	Africa-specific: WHO EESC (Emergency and Essential Surgical Care) indicators. WHO Quality of Care Network for Maternal, Newborn and Child Health. DHIS2 quality indicators (data completeness, timeliness). Service Availability and Readiness Assessment (SARA). Service Provision Assessment (SPA). Demographic and Health Surveys (DHS) quality indicators. Patient satisfaction (not HCAHPS — community feedback, exit interviews). Mortality audits (maternal, perinatal, neonatal, surgical — confidential, no blame, system focus).
-Sustainability	Leadership commitment	Frontline ownership + community + ministry: Frontline nurses, midwives, CHWs own quality (not top-down). Ministry of Health mandates (policy, funding, supervision). Community accountability (citizen scorecards, community health committees). Donor alignment (PEPFAR, Global Fund, GAVI, USAID, FCDO, BMGF — quality requirements in grants). Professional associations (Medical Councils, Nursing Councils, Colleges of Surgeons, Midwives Associations).
+Sustainability	Leadership commitment	Frontline ownership + community + ministry: Frontline nurses, midwives, CHWs own quality (not top-down). Ministry of Health mandates (policy, funding, supervision). Community accountability (citizen scorecards, community health committees). Donor alignment (PEPFAR, Global Fund, GAVI, USAID, FCDO, BMGF — quality requirements in funding agreements). Professional associations (Medical Councils, Nursing Councils, Colleges of Surgeons, Midwives Associations).
 ```
 New Action Items (continued)
 P70-AF EXTENDED ACTIONS:
@@ -4651,14 +4648,3 @@ Prompt	Africa-Specific Focus	Regulatory/Reimbursement Anchor	Equity Target
 P51-AF	Offline-first, blockchain ID, oral consent, IHL conflict protection, mobile money identity	POPIA (SA), NDPR (Nigeria), KEMRI (Kenya), IHL (conflict), AU Data Policy	Stateless, refugees, rural, low-literacy, women
 P52-AF	Malaria, HIV, TB, NCDs, maternal mortality, malnutrition, snakebite, RTC, war trauma	WHO guidelines, national MOH, MSF/IC
 ```
-Your conversation with Kimi is getting too long. Try starting a new session.
-
-
-
-
-
-Below is the compiled text extraction of both CLAI-OS extension architectures, structured for clarity and integration mapping.
-PART I: CLAI-OS GLOBAL EQUITY EXTENSION
-P51-G – P70-G: Decolonized Global South Architecture
-Executive Principle: Decolonize the Prompt
-Replace Western dataset bias with ancestry-aware calibration, epidemic reality (malaria/TB/dengue as dominant), resource physics (POCUS over MRI), cognitive justice (integrated explanatory models), and open infrastructure (FHIR + AGPL + local hosting).

@@ -26,7 +26,7 @@ That standard has three corollaries, and they define what this archive is for.
 
 **Second, the architecture is governed.** Every artifact in this archive is subject to SHA-256 signed go/no-go checkpoints, hash-chained prompt genealogy, and regression detection with signed REGRESSION records. The constitutional authority for all governance decisions is Dr. Christabel Odeta, sole author of all associated intellectual property. Governance is not a department; it is a property of every artifact, enforced by S50-ABSOLUTE at the point of creation.
 
-**Third, the architecture is transferable.** The AEGIS-GLOBAL manufacturing specification is written such that a contract manufacturer in Shenzhen and a certified engineer in Kano can read the same page and produce the same node. The universal grant narrative is written such that a funder can underwrite the architecture against falsifiable metrics rather than against claims. Transferability is the difference between a system and a dependency.
+**Third, the architecture is transferable.** The AEGIS-GLOBAL manufacturing specification is written such that a contract manufacturer in Shenzhen and a certified engineer in Kano can read the same page and produce the same node. The local engineer certification curriculum is written such that capacity transfer is verifiable against falsifiable tests rather than against claims. Transferability is the difference between a system and a dependency.
 
 ## Reading Order
 
@@ -39,10 +39,9 @@ That standard has three corollaries, and they define what this archive is for.
 | 5 | [CLAI-OS FHIR R4 Layer](clai-os/fhir-r4-native.md) | The permanently open clinical data layer |
 | 6 | [AEGIS-NG Node Types](aegis-ng/node-types.md) | The fourteen-node field hardware family |
 | 7 | [AEGIS-NG Mesh Protocol](aegis-ng/mesh-protocol.md) | The 433 MHz bandwidth-zero sovereign mesh |
-| 8 | [Manufacturing Specification](aegis-global/manufacturing-spec.md) | China sourcing at $46.30 per unit |
+| 8 | [Manufacturing Specification](aegis-global/manufacturing-spec.md) | China sourcing and contract-manufacturer handoff |
 | 9 | [Certification Curriculum](aegis-global/curriculum.md) | Local engineer capacity transfer |
-| 10 | [Universal Grant Narrative](grants/universal-narrative.md) | The fourteen-section funding instrument |
-| 11 | [P61–P70 Compliance Adapters](compliance/P61-P70.md) | Configuration-as-compliance across 24 jurisdictions |
+| 10 | [P61–P70 Compliance Adapters](compliance/P61-P70.md) | Configuration-as-compliance across 24 jurisdictions |
 
 ## A Note on Integrity Markers
 

@@ -1,11 +1,9 @@
 ---
 title: AEGIS-GLOBAL — Local Engineer Certification Curriculum
-description: Capacity transfer as the architect's only revenue — per-engineer certification ([Commercial licensing terms — inquiries via the GitHub organization]), delivered in multiple languages.
+description: Per-engineer certification training for the AEGIS-GLOBAL node family, delivered in multiple languages.
 ---
 
 # AEGIS-GLOBAL — Local Engineer Certification Curriculum
-
-> **Sanitized for public release:** 2026-08-18 — certification fee amount redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]` per SAVANT commercial-pricing policy; all other content preserved verbatim.
 
 **Version:** 1.0.0
 **Author:** Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
@@ -14,11 +12,11 @@ description: Capacity transfer as the architect's only revenue — per-engineer 
 
 ---
 
-## 1. Constitutional: Training Is the Only Revenue
+## 1. Constitutional: Capacity Transfer, Not Dependency
 
-The AEGIS-GLOBAL commercial model contains exactly one revenue line for the architect: **certification training — [Commercial licensing terms — inquiries via the GitHub organization]**. There are no hardware margins, no per-unit royalties, no licensing rents on deployed nodes, and no recurring platform fees. This is a deliberate constitutional decision, and it is stated at the top of this document because it explains everything below it.
+The AEGIS-GLOBAL model contains no hardware margins, no per-unit royalties, no licensing rents on deployed nodes, and no recurring platform fees. This is a deliberate constitutional decision, and it is stated at the top of this document because it explains everything below it.
 
-The reasoning is structural. A hardware margin makes the architect's interest diverge from the operator's: every node sold is revenue, so the architect benefits from dependency, from replacement cycles, proprietary spares, and knowledge asymmetry. A training-only model aligns the architect's interest with *capacity transfer*: revenue exists precisely when an engineer no longer needs the architect. The architect is paid once, at the moment dependency ends. This is the capacity-building frame, and it is not rhetoric, it is the only line on the invoice.
+The reasoning is structural. A hardware margin makes the designer's interest diverge from the operator's: every node sold benefits from dependency — replacement cycles, proprietary spares, and knowledge asymmetry. A training-centered model aligns interest with *capacity transfer*: the engagement succeeds precisely when an engineer no longer needs the instructor. This is the capacity-building frame, and it is not rhetoric.
 
 Consequences: the [Manufacturing Specification](manufacturing-spec.md) is complete and openly readable; the BOM is honestly marked rather than obscured; and the curriculum below teaches *everything* required to manufacture, deploy, and maintain the node family without recourse to the architect.
 
@@ -26,7 +24,6 @@ Consequences: the [Manufacturing Specification](manufacturing-spec.md) is comple
 
 | Attribute | Value |
 |---|---|
-| Fee | [Commercial licensing terms — inquiries via the GitHub organization] (one-time; no renewal fees, no seat licenses) |
 | Duration | 10 instructional days + 2 assessment days |
 | Cohort size | 12–20 (hands-on stations cap cohort size; this is a workshop, not a lecture series) |
 | Prerequisite | Secondary-school technical literacy *or* demonstrated workshop aptitude (see §5, low-literacy adaptation); no prior electronics qualification required |
@@ -108,18 +105,14 @@ Literacy is not a certification prerequisite, because the competences being cert
 - **Memory scaffolding.** Hash verification, manifest chaining, and QC sequences are taught as fixed physical routines (point, read aloud, compare, mark) that do not require reading comprehension to execute correctly.
 - **Honesty of the adaptation.** Where a task genuinely requires text (reading a registry part number, verifying a hash string), the candidate is taught the *minimum sufficient literacy* for that exact task which is recognizing the marked import cell, matching characters — rather than being waived past the safety-critical content. Adaptation lowers the entry barrier; it never lowers the gate.
 
-## 6. Economics of the Model, Stated Plainly
-
-A cohort of 16 engineers yields $15,600 in training revenue. It is the entirety of the architect's income from that cohort, forever. The cohort's output assembled nodes, deployed cells, maintained networks, QC authority belongs to the operators and their sovereign partners. 
-
 ---
 
 ## Falsifiability Test
 
-**Claim:** A certified graduate can assemble, flash, deploy, maintain, and QC the full node family without further recourse to the architect, and the training-only revenue claim is real.
+**Claim:** A certified graduate can assemble, flash, deploy, maintain, and QC the full node family without further recourse to the architect, and the no-margin claim of §1 is real.
 
 **Test 1 (capacity transfer):** Select any certified cohort. Without architect involvement, have it execute Modules 1→5 end to end on fresh kits, then run the four group falsifiability tests of [Node Types §7](../aegis-ng/node-types.md). Any failure attributable to curriculum content (rather than candidate performance) falsifies §3; record a REGRESSION record (S50 class C) against the module.
 
-**Test 2 (revenue exclusivity):** Audit the program's invoices and procurement flows for any deployment. If any line item beyond the certification fee accrues to the architect — hardware margin, royalty, platform fee, "support subscription" — §1 is falsified and the misstatement is a class-A defect against every grant narrative that cited the capacity-building frame.
+**Test 2 (no-margin exclusivity):** Audit the program's invoices and procurement flows for any deployment. If any line item beyond the certification engagement accrues to the framework — hardware margin, royalty, platform fee, "support subscription" — §1 is falsified and the misstatement is a class-A defect.
 
 **Test 3 (low-literacy honesty):** Certify a low literacy candidate cohort by the pictographic/oral pathway, then independently re-run their QC judgments (Module 5 gate) on seeded units. If the pass rate diverges materially from literate cohorts, the adaptation is lowering the gate rather than the barrier — §5 is falsified.

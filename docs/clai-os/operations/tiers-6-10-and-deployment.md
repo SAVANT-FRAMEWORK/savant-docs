@@ -1,12 +1,11 @@
 ---
-title: CLAI Operations — Tiers 6–10 (P26–P50) & Deployment Playbook
+title: SAVANT FRAMEWORK Operations Registry (P01–P50) — Tiers 6–10 (P26–P50) & Deployment Playbook
 description: Prompt abstracts: Adaptive, Specialized, Strategic, Recursive, Orchestration; deployment playbook.
 ---
 
-> **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+# SAVANT FRAMEWORK Operations Registry (P01–P50) — Tiers 6–10: Prompts P26–P50 & Deployment Playbook
 
-# Tiers 6–10: Prompts P26–P50 & Deployment Playbook
+Canonical per-prompt documentation: https://github.com/SAVANT-FRAMEWORK/savant-prompts — CLAI-OS prompts exist only at P51–P110 and live at https://github.com/SAVANT-FRAMEWORK/clai-os
 
 ## TIER 6: ADAPTIVE (Prompts 26-30)
 
@@ -267,7 +266,7 @@ Optimization Telemetry:
 •  Cost per transaction: -40%
 •  Performance: maintained or improved
 ```
-Real-World Scenario: A startup uses P39 to reduce AWS bill from $50K/month to $32K/month. The savings fund 2 additional engineers.
+Real-World Scenario: A startup uses P39 to reduce its AWS bill by roughly a third. The savings fund 2 additional engineers.
 
 ### P40: Strategic Roadmap Synthesizer
 
@@ -380,7 +379,7 @@ Optimization Telemetry:
 •  Transfer boost: +30% from related tasks
 •  OOD detection: >90% recall
 ```
-Real-World Scenario: A customer service platform uses P45. New product lines are supported within 1 day (10 examples) instead of 2 weeks (hundreds of examples).
+Real-World Scenario: A customer service platform uses P45. New service categories are supported within 1 day (10 examples) instead of 2 weeks (hundreds of examples).
 
 
 

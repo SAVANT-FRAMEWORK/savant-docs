@@ -120,9 +120,8 @@ nav:
       - Deterministic Clinical Engine: clai-os/deterministic-engine.md
       - FHIR R4 Native Resource Layer: clai-os/fhir-r4-native.md
       - Integration Layer (Document A2): clai-os/integration-layer-A2.md
-      - Operations Abstract (P1–P50):
+      - SAVANT Operations Registry (P01–P50):
           - Overview & Document Map: clai-os/operations/index.md
-          - Business Model & Publishing Strategy: clai-os/operations/business-model-and-publishing.md
           - Global Equity Extension (P51-G – P70-G): clai-os/operations/global-equity-extension.md
           - Tiers 1–5 (P1–P25): clai-os/operations/tiers-1-5.md
           - Tiers 6–10 (P26–P50) & Deployment Playbook: clai-os/operations/tiers-6-10-and-deployment.md
@@ -137,7 +136,5 @@ nav:
   - AEGIS-GLOBAL:
       - Manufacturing & China Sourcing Specification: aegis-global/manufacturing-spec.md
       - Local Engineer Certification Curriculum: aegis-global/curriculum.md
-  - Grants:
-      - Universal Grant Narrative Template: grants/universal-narrative.md
   - Compliance:
       - P61–P70 Regional Compliance Adapters: compliance/P61-P70.md

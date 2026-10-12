@@ -1,12 +1,11 @@
 ---
-title: CLAI Operations — Tiers 1–5 (P1–P25)
+title: SAVANT FRAMEWORK Operations Registry (P01–P50) — Tiers 1–5 (P01–P25)
 description: Prompt abstracts: Foundation, RAG, Agent Orchestration, Production, Meta-Cognitive.
 ---
 
-> **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
+# SAVANT FRAMEWORK Operations Registry (P01–P50) — Tiers 1–5: Prompts P01–P25
 
-# Tiers 1–5: Prompts P1–P25
+Canonical per-prompt documentation: https://github.com/SAVANT-FRAMEWORK/savant-prompts — CLAI-OS prompts exist only at P51–P110 and live at https://github.com/SAVANT-FRAMEWORK/clai-os
 
 ## TIER 1: FOUNDATION (Prompts 1-5)
 
@@ -26,7 +25,7 @@ Optimization Telemetry:
 •  Architecture changes per sprint: <1 (stability metric)
 •  Production incidents traceable to design flaw: 0 (quality metric)
 ```
-Real-World Scenario: A fintech startup uses P1 to design their compliance automation. The explicit D/L labeling prevents a junior engineer from accidentally putting PII classification in an LLM call (saving $2M in potential GDPR fines).
+Real-World Scenario: A fintech startup uses P1 to design their compliance automation. The explicit D/L labeling prevents a junior engineer from accidentally putting PII classification in an LLM call (avoiding potential GDPR fines).
 
 ### P2: API Design Specialist
 
@@ -62,7 +61,7 @@ Optimization Telemetry:
 •  Migration downtime: 0 seconds (online migrations)
 •  Storage growth rate: predictable (linear, not exponential)
 ```
-Real-World Scenario: An e-commerce platform uses P3 before Black Friday. The partitioning strategy prevents their order table from locking during peak traffic (preventing $500K/hour in lost sales).
+Real-World Scenario: An e-commerce platform uses P3 before Black Friday. The partitioning strategy prevents their order table from locking during peak traffic (preventing lost sales at peak).
 
 ### P4: Async Programming Master
 
@@ -80,7 +79,7 @@ Optimization Telemetry:
 •  Error rate during traffic spike: <0.1%
 •  Memory usage under load: flat (no connection leaks)
 ```
-Real-World Scenario: A news site uses P4 before a viral article. Their async API handles 50K concurrent users on 3 servers instead of 30 (saving $8K/month in infrastructure).
+Real-World Scenario: A news site uses P4 before a viral article. Their async API handles 50K concurrent users on 3 servers instead of 30 (reducing infrastructure cost proportionally).
 
 ### P5: Docker Containerization Expert
 
@@ -139,7 +138,7 @@ Optimization Telemetry:
 •  Inference cost: 50% below naive choice
 •  Model swap time: <1 hour (abstraction layer)
 ```
-Real-World Scenario: A customer support bot uses P7 to switch from OpenAI embeddings ($0.10/1K) to local BGE ($0.00, GPU amortized). Same accuracy, $3K/month savings.
+Real-World Scenario: A customer support bot uses P7 to switch from metered OpenAI embeddings to local BGE (GPU amortized). Same accuracy, materially lower monthly inference cost.
 
 
 ### P8: Vector Database Architect
@@ -159,7 +158,7 @@ Optimization Telemetry:
 •  Index build time: <1 hour for full dataset
 •  Query throughput: >1000 QPS
 ```
-Real-World Scenario: A recruitment platform uses P8 with pgvector. They avoid adding a new database (Weaviate/Pinecone), reducing operational complexity and saving $2K/month in infrastructure.
+Real-World Scenario: A recruitment platform uses P8 with pgvector. They avoid adding a new database (Weaviate/Pinecone), reducing operational complexity and infrastructure cost.
 
 
 ### P9: Hybrid Search Engineer
@@ -328,7 +327,7 @@ Optimization Telemetry:
 •  Throughput: >10x baseline
 •  Cost per request: <50% of baseline
 ```
-Real-World Scenario: A real-time bidding platform uses P17. Latency drops from 500ms to 80ms, win rate increases 15% (competitors are slower), revenue increases $2M/year.
+Real-World Scenario: A real-time bidding platform uses P17. Latency drops from 500ms to 80ms, win rate increases 15% (competitors are slower).
 
 ### P18: Cost Optimization Analyst
 
@@ -346,7 +345,7 @@ Optimization Telemetry:
 •  Cost per successful outcome: -60%
 •  User satisfaction: maintained (measured)
 ```
-Real-World Scenario: A customer support platform uses P18. Model routing + caching reduces OpenAI bill from $50K/month to $18K/month. CSAT score unchanged at 4.6/5.
+Real-World Scenario: A customer support platform uses P18. Model routing + caching reduces the OpenAI bill by roughly two-thirds. CSAT score unchanged at 4.6/5.
 
 ### P19: Reliability Engineer
 
@@ -422,7 +421,7 @@ Optimization Telemetry:
 •  Latency: -50% (parallelization)
 •  Accuracy: within 3% of monolithic
 ```
-Real-World Scenario: A legal contract analyzer uses P22. 50-page contract analysis drops from $15 (single Claude call) to $4.50 (orchestrated GPT-3.5 + Claude), with same accuracy.
+Real-World Scenario: A legal contract analyzer uses P22. 50-page contract analysis drops in cost by roughly 70% when orchestrated across models (GPT-3.5 + Claude) instead of a single large-model call, with same accuracy.
 
 ### P23: Attention Mechanism Exploiter
 
@@ -458,7 +457,7 @@ Optimization Telemetry:
 •  Token waste (unused context): <10%
 •  ROI per AI feature: positive, measured
 ```
-Real-World Scenario: A content platform uses P24. They discover 40% of tokens are spent on system prompts — optimizing reduces monthly bill by $8K with no quality loss.
+Real-World Scenario: A content platform uses P24. They discover 40% of tokens are spent on system prompts — optimizing reduces the monthly bill materially with no quality loss.
 
 ### P25: Hallucination Immunizer
 

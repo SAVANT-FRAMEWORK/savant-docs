@@ -3,17 +3,13 @@ Document: CLAI-OS INTEGRATION LAYER — Document A2
 Version: 1.0.0
 Author: Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 Integrated: 2026-08-13
-Source: canonical author-supplied document (uploaded 2026-08-13)
 Source SHA-256: 98d2f3aea9d8815cd65e76b10238485558f6eb5bd599a2e219560df9a4632d5c
 License: document text AGPL-3.0 — prompts referenced herein keep their
-canonical licenses (KEY-001..020 AGPL-3.0; KEY-021+ Savant-Commercial-1.0;
-CLAI-OS P51–P70 AGPL-3.0). See ../../LICENSE, ../../CAA.md, and the canonical rule in savant-core/prompt-catalog/LICENSING.md.
+canonical licenses (KEY-001..015 AGPL-3.0; KEY-016..075 Savant-Commercial-1.0;
+CLAI-OS P51–P70 AGPL-3.0). See LICENSE in this repository.
 ---
 
 # CLAI-OS INTEGRATION LAYER — Document A2
-
-> **Sanitized for public release:** 2026-08-18 — conversational-source artifacts purged (assistant narration and second-person advisor framing rewritten in institutional voice); all other content preserved verbatim.
-
 
 ## CLAI-OS INTEGRATION LAYER.
 
@@ -1288,6 +1284,5 @@ Week	Phase	Deliverable
 13	Handoff	Documentation complete, operational readiness signed, continuous improvement loop active
 ```
 ----
-Total elapsed time: 13 weeks from zero to production across all markets.
-This architecture is designed for your solo operation with AI augmentation—each phase can be executed with minimal human overhead through infrastructure-as-code, automated testing, and AI-assisted documentation. The modular design allows you to deploy market-by-market if needed, starting with your highest-priority region while keeping others in staging.
-Shall I expand any phase, add specific Terraform/Kubernetes manifests, or detail the cost optimization strategy for solo operation?
+
+This reference architecture sequences integration into seven phases: foundation (infrastructure, model registry, compliance baselines); core engine (prompt templates, composition pipeline, inference); market adapters for the US, APAC, and Arab jurisdictions; the integration layer (EHR connectors, orchestrated data pipelines, audit logging); validation (synthetic-data testing, prompt-specific suites, red-team review); staged deployment (canary to full production, monitoring, hypercare); and documentation handoff into a continuous improvement loop. Each phase carries explicit deliverables and operational-readiness criteria, and the phase boundaries are modular, so market adapters can be deployed independently while others remain in staging.

@@ -8,7 +8,6 @@ description: The canonical SAVANT prompt corpus — ledger summary, license gate
 **Version:** 1.0.0
 **Author:** Dr. Christabel Odeta — SAVANT FRAMEWORK · CLAI-OS · AEGIS-GLOBAL
 **Last Updated:** 2026-08-18
-**Sanitized for public release:** 2026-08-18 — ledger counts derived from the canonical prompt catalog ledger; no commercial terms disclosed.
 
 ---
 
@@ -41,12 +40,12 @@ The SAVANT FRAMEWORK prompt corpus is a governed canon of **75 prompts across 15
 
 ## License Gate
 
-The corpus is dual-licensed at a hard boundary:
+The corpus is licensed at a hard boundary:
 
-- **KEY-001 – KEY-020** (Tiers 1–4: Foundation, RAG, Agents, Production) — **AGPL-3.0**. Open, forkable, auditable.
-- **KEY-021 – KEY-075** (Tiers 5–15) — **Savant-Commercial-1.0**. Commercial licensing terms: inquiries via the GitHub organization.
+- **KEY-001 – KEY-015** (Tiers 1–4: Foundation, RAG, Agents) — **AGPL-3.0**. Open, forkable, auditable.
+- **KEY-016 – KEY-075** (Production tier and Tiers 5–15) — **Savant-Commercial-1.0**. Names, abstracts, methodologies, and merits are public via the [savant-prompts repository](https://github.com/SAVANT-FRAMEWORK/savant-prompts); prompt bodies are withheld. Commercial licensing terms: inquiries via the GitHub organization.
 
-The CLAI-OS clinical series (P51–P70) documented under [CLAI-OS Operations](clai-os/operations/index.md) is AGPL-3.0 for Global South, non-profit, and academic deployment, with commercial stewardship for for-profit use.
+The CLAI-OS clinical series (P51–P70) documented under the [SAVANT Operations Registry](clai-os/operations/index.md) is **AGPL-3.0** — open, forkable, auditable.
 
 ## Companion Repository
 
@@ -56,15 +55,17 @@ The full public ledger — per-prompt PRESENT files for the open tier, abstracts
 
 ## Corpus Expansion — 2026-10-06
 
-The canonical corpus map now spans: KEY-001–KEY-075 (15 tiers) · **S-Tier S-001–S-063**
-meta-constitutional engines · **P-051–P-110** CLAI-OS modules · **PRIME-001**
+The canonical corpus map now spans: KEY-001–KEY-075 (15 tiers) · **S-Tier S-001–S-062**
+meta-constitutional engines · **P51–P110** CLAI-OS modules · **PRIME-001**
 constitutional orchestration layer · **20 deployment agents**
 (CLAI-DEPLOY-01..10, AEGIS-DEPLOY-01..10).
 
 - **S-001–S-020 are open under AGPL-3.0** (canonical ruling 2026-10-06) — full text in
   [savant-prompts/open-tier](https://github.com/SAVANT-FRAMEWORK/savant-prompts/tree/main/open-tier).
-- S-021–S-063, P-071–P-110, PRIME-001, and all 20 deployment agents are
-  **Savant-Commercial-1.0** — abstracts and SHA-256 existence-commitments only.
+- **S-021–S-062** are **Savant-Commercial-1.0** — abstracts and SHA-256 existence-commitments only. The S-registry closes at S-062.
+- **P51–P70 (CLAI-OS)** are fully open under **AGPL-3.0** — full prompt bodies are public in the [clai-os repository](https://github.com/SAVANT-FRAMEWORK/clai-os).
+- **P71–P110** are the **VALIDATION RELEASE** (de-commercialized by author ruling 2026-10-12): names, methodologies, and merits are public — prompt bodies are withheld and are **not** commercial.
+- **PRIME-001 and all 20 deployment agents** are **Savant-Commercial-1.0** — abstracts and SHA-256 existence-commitments only.
 - PRIME governs all corpus execution — see [PRIME](prime/index.md) and the
   [Deployment Agent Stack](agents/index.md).
 - Authorship: [Canonical Attribution Framework](authorship.md).

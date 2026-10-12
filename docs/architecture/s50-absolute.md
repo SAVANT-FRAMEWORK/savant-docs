@@ -48,7 +48,7 @@ CHECKPOINT VERDICT RECORD (canonical form)
 |---|---|---|---|---|
 | **A** | Constitutional | L0/L1 artifacts, SPOS/SIP amendments, SAFETY verdicts, authority changes | Dr. Christabel Odeta (direct signature) | Ratification of SPOS v1.0; authority seal changes |
 | **B** | Structural | L2/L3 artifacts: strategy, decomposition, orchestration plans, procedure amendments (Loop I) | L1 Audit persona under standing delegation | Task graph ratification; LOOP-I procedure amendment |
-| **C** | Artifact | L4/L5 outputs: documents, code, firmware, BOMs, grant narratives | L1 Audit persona | This documentation site; an AEGIS-NG firmware image |
+| **C** | Artifact | L4/L5 outputs: documents, code, firmware, BOMs | L1 Audit persona | This documentation site; an AEGIS-NG firmware image |
 | **D** | Operational | Logged events: refusals, escalations, routine sync attestations | Automated under L1 supervision | SIP boundary refusal log entry |
 
 Class assignment is a function of the artifact's layer, per the [SIP routing table](sip-v1.0.md#4-routing-table-trigger-spos-layer-checkpoint-class). Escalation to a stricter class is always permitted; relaxation never is.

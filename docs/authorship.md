@@ -30,7 +30,7 @@ Co-authorship invitations extended to independent institutions apply to
 **validation studies and pilot outputs only** — the mechanism by which external
 institutions produce independent replication evidence. IP authorship of the
 framework itself is non-transferable and is not altered by any co-authorship,
-partnership, pilot, or grant agreement.
+partnership, pilot, or funding agreement.
 
 ## Falsifiability Test
 

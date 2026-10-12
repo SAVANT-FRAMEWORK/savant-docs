@@ -3,9 +3,6 @@ title: CLAI-OS Module Structures & Advanced Markets (Asia)
 description: Module structures and integrations for Global Equity and Advanced Markets; Asian-centric prompt series.
 ---
 
-> **Source:** Derived from the private CLAI-OS document `clai-os/docs/operations/clai-operations-P1-P50-abstract-and-summary.md` (integrated 2026-08-13).
-> **Sanitized for public release:** 2026-08-18 · conversational-source purge hotfix 2026-08-18 — SAVANT commercial licensing terms redacted and replaced with `[Commercial licensing terms — inquiries via the GitHub organization]`; all other content preserved verbatim.
-
 # Module Structures & Advanced Markets (Asian-Centric Series)
 
 ## MODULE STRUCTURES & INTEGRATIONS
@@ -135,7 +132,7 @@ description: Module structures and integrations for Global Equity and Advanced M
 
 ```
 •  Structure: WHO Prequalification + AMRH; validation on Fitzpatrick IV-VI; extreme environment design (50°C, dust, solar); right-to-repair.
-•  Key Actions: Mandatory validation on African/Asian skin tones before deployment; 8-hour battery minimum; solar rechargeable; local manufacturing QC; open-source hardware designs; single-use safety (auto-disable syringes); $20 smartphone otoscope, $50 ultrasound.
+•  Key Actions: Mandatory validation on African/Asian skin tones before deployment; 8-hour battery minimum; solar rechargeable; local manufacturing QC; open-source hardware designs; single-use safety (auto-disable syringes); low-cost smartphone otoscopes and ultrasound devices.
 •  Integration: Device outputs feed P53-G (imaging) and P58-G (EHR); validated under P64-G equity standards.
 ```
 
@@ -177,16 +174,14 @@ description: Module structures and integrations for Global Equity and Advanced M
 Tier	Location	Compute	Active Prompts	Diagnostics
 Tier 1	National Hub (Capital)	Full cloud + on-prem backup	All P51-G–P70-G	Genomic sequencing, PACS, DICOM
 Tier 2	District Hospital (100–500 beds)	Edge server (GPU, 4TB)	Core: P52, P53, P55, P57, P61, P62	Ultrasound, portable X-ray, CBC, malaria RDT
-Tier 3	Health Center (10–30 beds, no doctor)	$200 Android tablet + CHW app (offline-first)	Limited: P52, P55, P57, P67, P69	RDTs, pulse ox, BP cuff, MUAC tape
-Tier 4	Community (Village, no facility)	CHW $50 smartphone + solar charger	Voice AI, SMS reporting, paper backup	Community register, referral transport
+Tier 3	Health Center (10–30 beds, no doctor)	Android tablet + CHW app (offline-first)	Limited: P52, P55, P57, P67, P69	RDTs, pulse ox, BP cuff, MUAC tape
+Tier 4	Community (Village, no facility)	CHW smartphone + solar charger	Voice AI, SMS reporting, paper backup	Community register, referral transport
 ```
 
 
 GLOBAL EQUITY GOVERNANCE: THE HEALTH COMMONS
 ```
 •  Ownership: No shareholders. Global South-majority board (60% African/Asian/Latin American). AGPL v3. Patent pledge (no AI health algorithm patents).
-•  Funding: Government health budgets + grants (WHO, Gates, Wellcome) + flat population payment (not per-transaction).
-•  Value Creation: 40% commercial operations / 60% Global South deployment reinvestment. No executive comp >5x median health worker salary. Transparent annual public reporting.
 ```
 PART II: CLAI-OS  ADVANCED MARKETS EXTENSION
 P51-AM – P70-AM: US & Asia-Pacific High-Resource Architecture
@@ -363,7 +358,7 @@ Re-architect for jurisdictional polyphony (HIPAA + APPI + PIPL + PDPA + My Numbe
 Tier	Location	Compute	Active Prompts	Diagnostics
 Tier 1	National Reference Center (Tokyo, Seoul, Singapore, Shanghai)	Full cloud + sovereign cloud backup	All P51-AM–P70-AM	Genomic sequencing, PACS, AI endoscopy, LDCT
 Tier 2	Regional Hospital (300–800 beds)	Edge server (GPU, 10TB)	Core: P52, P53, P55, P57, P61, P62	Endoscopy, ultrasound, LDCT, lab, HBV/HCV serology
-Tier 3	Community Hospital/Clinic (50–200 beds)	$500 tablet + messaging app	Limited: P52, P55, P57, P60, P69	Rapid tests, POCUS, home BP/glucose
+Tier 3	Community Hospital/Clinic (50–200 beds)	tablet + messaging app	Limited: P52, P55, P57, P60, P69	Rapid tests, POCUS, home BP/glucose
 Tier 4	Home / Elderly Care	Smartphone + wearable + voice AI	Voice interface, family proxy, kaigo integration	BP monitor, glucose, fall detection, emergency auto-dial
 ```
 
@@ -371,9 +366,6 @@ Tier 4	Home / Elderly Care	Smartphone + wearable + voice AI	Voice interface, fam
 ## ADVANCED MARKETS GOVERNANCE
 
 ```
-•  Ownership: Savant Framework LLC (Nigeria) holds global IP. Local operating entities in target markets (Japan, Singapore, Korea, India) for regulatory/data residency compliance.
-•  Licensing: Dual license—Commercial (for-profit hospitals, insurers, pharma — [Commercial licensing terms — inquiries via the GitHub organization]) + Mission (non-profit, academic, public hospital).
-•  Reinvestment: Commercial revenue funds R&D for next-tier prompts, local team salaries, advanced market infrastructure, and 30% cross-subsidy to Global South deployment.
 •  Accountability: Local regulatory compliance (PMDA, NMPA, MFDS, HSA, CDSCO, FDA); annual algorithmic bias audit by independent Asian academic body; patient right to data portability; right to fork under AGPL.
 ```
 
@@ -401,23 +393,6 @@ P68	CBR, traditional bone setters, 3D prosthetics	Super-aging frailty, taichi/yo
 P69	MUAC/CMAM/RUTF/agricultural seasonality	AWGS sarcopenia, TCM food therapy, NAFLD, kodokushi	Nutrition → clinical flags → counseling delivery
 P70	Counterfeit detection, WASH, respectful maternity	Look-alike drug prevention, overcrowding, karoshi, migrant safety	Quality audit cross-cut all tiers
 ```
-End of compiled extraction.
-```
-	◦
-```
-
-
-```
-Platform	Format	Frequency
-GitHub	Full abstract + methodology as README.md per prompt; link to white paper	One prompt per week for 20 weeks
-LinkedIn	Condensed abstract (150 words) + key merit + problem statement; carousel for methodology diagrams	2 prompts per week; tag #CLAIOS #HealthEquity #DecolonizeAI
-arXiv	Full academic format (abstract + introduction + methodology + merits + problems + references)	Batch 5 prompts per paper (4 papers total)
-Twitter/X	Thread: 5 tweets per prompt (problem, solution, merit, methodology hook, call to action)	1 prompt per day during launch month
-Conference Submissions	NeurIPS/ICML workshop (P41-P50 recursive themes); ASTMH/WHO (P51-P70 global health); AMIA/ML4H (clinical AI)	Q3 2026 for P51-AM–P70-AM validation studies
-```
-This series presents 20 publication-ready abstracts and methodologies for the Advanced Markets CLAI-OS prompts, structured for repository documentation, publication, and conference submission channels.
-
-
 ## THE ADVANCED MARKETS CLAI-OS PROMPT SERIES (Asian-centric)
 
 P51-AM through P70-AM: Abstracts & Methodologies
@@ -520,7 +495,7 @@ Merits
 Problems Fixed
 ```
 •  The "gnomAD bias" where European allele frequencies misclassify Asian pathogenic variants as benign.
-•  The "blind NGS" approach that wastes $3,000 on broad panels when $200 targeted EGFR testing would suffice for Asian NSCLC.
+•  The "blind NGS" approach that orders broad panels when targeted EGFR testing would suffice for Asian NSCLC.
 •  The "individual autonomy assumption" that fails East Asian families who make medical decisions collectively.
 ```
 ----
@@ -638,7 +613,7 @@ Methodology
 5.  Messaging App Care Plan Delivery: WeChat (China): care plans, appointment reminders, medication adherence nudges via mini-programs. Line (Japan, Thailand, Taiwan): health bot reminders. KakaoTalk (Korea): notifications. WhatsApp (India, Singapore): structured care plans.
 Merits
 ```
-•  Enables cross-hospital data sharing in Japan without the $2B+ national EHR replacement cost.
+•  Enables cross-hospital data sharing in Japan without national EHR replacement.
 •  Reduces duplicate testing in China by 23% through provincial cloud PACS integration.
 •  Increases rural Indian patient record portability from 4% to 67% through ABHA QR cards.
 ```
@@ -758,7 +733,7 @@ Methodology
 •  Takayasu arteritis: Default check for young Asian female with visual symptoms, unequal pulses, or hypertension (BP all 4 limbs, auscultate for bruits, ESR/CRP).
 ```
 2.  HBV-Related Disease Differentials: Every vasculitis → HBV status check (polyarteritis nodosa from surface antigen complex deposition). Every membranous nephropathy → PLA2R vs. HBV-associated. Every cryoglobulinemic vasculitis → HBV + HCV check.
-3.  Consanguinity Analysis (South Asia): Elevate autosomal recessive inheritance in differential ranking. Autozygosity mapping as primary diagnostic tool. Cost-tiered testing: Tier 1 targeted panel ($200–500) → Tier 2 clinical exome ($800–1,500) → Tier 3 genome + RNA ($2,000–3,000).
+3.  Consanguinity Analysis (South Asia): Elevate autosomal recessive inheritance in differential ranking. Autozygosity mapping as primary diagnostic tool. Cost-tiered testing: Tier 1 targeted panel → Tier 2 clinical exome → Tier 3 genome + RNA.
 4.  Japan Designated Intractable Disease Check: Query Japan's 331 designated diseases against patient phenotype. Verify NHI coverage status for treatment subsidy eligibility. Generate subsidy application documentation.
 5.  Cost-Tiered Testing Recommendation: AI recommends diagnostic tier based on phenotype complexity, prior test results, and insurance coverage. Prevents unnecessary expensive testing in resource-conscious Asian settings.
 Merits
@@ -771,7 +746,7 @@ Problems Fixed
 ```
 •  The "Western rare disease bias" where Kawasaki and IgA nephropathy—common in Asia—are buried below Rett syndrome and Angelman syndrome in differential ranking.
 •  The "consanguinity blind spot" where Western AI ignores autosomal recessive patterns prevalent in 20–50% of South Asian marriages.
-•  The "cost insensitivity" where US-trained AI recommends $3,000 exomes when $200 targeted panels would suffice.
+•  The "cost insensitivity" where US-trained AI recommends full exomes when targeted panels would suffice.
 ```
 ----
 
@@ -843,7 +818,7 @@ Methodology
 •  Radiology: Lung nodule GGN management validated on Asian non-smoker cohorts (different malignancy risk calculus vs. solid nodules).
 ```
 2.  Multi-Regulatory Submission Package: Generate submission packages for FDA, PMDA, NMPA, MFDS, HSA, CDSCO simultaneously from single validation dataset. Track regulatory divergence: China NMPA requires domestic clinical trial data for Class III AI devices; Japan PMDA requires QMS alignment; Singapore HSA accepts PDPC advisory.
-3.  Local Manufacturing Validation: AI-assisted QC for locally manufactured devices (China: Mindray, United Imaging, Yingchuang 3D printed; India: locally assembled cardiac stents, orthopedic implants). Validate across cost tiers ($50K+ Japan/Korea/Singapore; $10K–30K China; $5K–15K India frugal innovation).
+3.  Local Manufacturing Validation: AI-assisted QC for locally manufactured devices (China: Mindray, United Imaging, Yingchuang 3D printed; India: locally assembled cardiac stents, orthopedic implants). Validate across cost tiers (high-resource Japan/Korea/Singapore; China; India frugal innovation).
 4.  Right-to-Repair for Asia: Device designs open for local technician repair. No proprietary screws, no software locks. Critical for India/SE Asia where authorized service centers are urban-only.
 5.  Messaging App Device Integration: Device data (BP, glucose, weight) auto-transmits to WeChat/Line/KakaoTalk health mini-programs. Patient views trends via familiar messaging interface, not separate app.
 Merits
@@ -956,35 +931,3 @@ Problems Fixed
 •  The "character-based medication error" where visually similar Chinese drug names cause fatal dispensing mistakes.
 •  The "burnout invisibility" where 100+ hour resident weeks are normalized until suicide or fatal error occurs.
 ```
-----
-
-
-## POSTING GUIDE
-
-```
-Platform	Format	Frequency
-GitHub	Full abstract + methodology as README.md per prompt; link to white paper	One prompt per week for 20 weeks
-```
-
-```
-LinkedIn	Condensed abstract (150 words) + key merit + problem statement; carousel for methodology diagrams	2 prompts per week; tag #CLAIOS #HealthEquity #DecolonizeAI
-```
-
-```
-arXiv	Full academic format (abstract + introduction + methodology + merits + problems + references)	Batch 5 prompts per paper (4 papers total)
-```
-
-```
-Twitter/X	Thread: 5 tweets per prompt (problem, solution, merit, methodology hook, call to action)	1 prompt per day during launch month
-```
-
-```
-Conference Submissions	NeurIPS/ICML workshop (P41-P50 recursive themes); ASTMH/WHO (P51-P70 global health); AMIA/ML4H (clinical AI)	Q3 2026 for P51-AM–P70-AM validation studies
-```
-End of Advanced Markets Abstract Series — CLAI-OS v1.0-AM
-
-
-
-
-
-Below is the US-centric adaptation of the CLAI-OS Advanced Markets architecture. The Asia-Pacific modules are re-architected for American epidemiology, regulatory frameworks, reimbursement systems, and cultural models. Each prompt maintains the same structural rigor but pivots to US-dominant clinical realities.
