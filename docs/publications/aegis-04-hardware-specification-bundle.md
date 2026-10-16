@@ -8,7 +8,7 @@ description: Production hardware specifications for five AEGIS-NG nodes: TALISMA
 **Author:** Dr. Christabel Odeta — SAVANT / CLAI-OS / AEGIS-GLOBAL · **Version 1.0 · October 2026**
 **Classification:** C0 INFORMATIONAL — confers no clinical, legal, financial, or safety authority.
 
-DOI: [10.5281/zenodo.23407105](https://doi.org/10.5281/zenodo.23407105) · License: CC-BY-4.0 · [Full record (Zenodo)](https://doi.org/10.5281/zenodo.23407105)
+DOI: [10.5281/zenodo.23409950](https://doi.org/10.5281/zenodo.23409950) · License: CC-BY-4.0 · [Full record (Zenodo)](https://doi.org/10.5281/zenodo.23409950)
 
 ## Abstract
 
@@ -41,8 +41,8 @@ The bundle converts the master architecture into five buildable objects. Its mer
   title     = {AEGIS-NG Hardware Specification Bundle v1.0 — Production Specifications for Nodes N-A01 TALISMAN, N-A05 STAFF, N-B01 SENTINEL-Base, N-B03 SENTINEL-THERMAL, and N-C02 GUARDIAN-NODE},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23407105},
-  url       = {https://doi.org/10.5281/zenodo.23407105}
+  doi       = {10.5281/zenodo.23409950},
+  url       = {https://doi.org/10.5281/zenodo.23409950}
 }
 ```
 
