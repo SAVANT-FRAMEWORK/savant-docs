@@ -1,6 +1,6 @@
 ---
 title: Publications — The SAVANT Zenodo Corpus
-description: All sixteen published works of the SAVANT programme — the Constitutional Intelligence Series, the Research Blueprint Series, and Evidence Annex I — with DOIs, merits, and guidance for use.
+description: All twenty-two published works of the SAVANT programme — the Constitutional Intelligence Series, the Research Blueprint Series, Evidence Annex I, and the AEGIS Series — with DOIs, merits, and guidance for use.
 ---
 
 # Publications — The SAVANT Zenodo Corpus
@@ -8,7 +8,7 @@ description: All sixteen published works of the SAVANT programme — the Constit
 **Author:** Dr. Christabel Odeta — SAVANT / CLAI-OS / AEGIS-GLOBAL · **Version 1.0 · October 2026**
 **Classification:** C0 INFORMATIONAL — nothing in this corpus confers clinical, legal, financial, or safety authority.
 
-This section publishes all sixteen works of the SAVANT programme as deposited on
+This section publishes all twenty-two works of the SAVANT programme as deposited on
 Zenodo, each open access under CC-BY-4.0, each with its own page stating the work's
 abstract, its merit, and guidance for use. Every work is available as a PDF on this
 site and as a versioned, DOI-citable deposit on Zenodo.
@@ -70,6 +70,24 @@ honest-absence doctrine.
 | Blueprint Nº 3 | [The Registered Frontier](blueprint-03-registered-frontier.md) | Research Blueprint | [10.5281/zenodo.23301332](https://doi.org/10.5281/zenodo.23301332) | [PDF](../blueprints/assets/SAVANT-Blueprint-03-Registered-Frontier-v1.0.pdf) |
 | Evidence Annex I | [First Executed Results](evidence-annex-1.md) | Evidence Annex | [10.5281/zenodo.23305008](https://doi.org/10.5281/zenodo.23305008) | [PDF](../constitutional-intelligence/assets/SAVANT-Evidence-Annex-I-First-Executed-Results-v1.0.pdf) |
 
+
+## The AEGIS Series — sovereign civilian-protection architecture
+
+Deposited 2026-10-16. Six works extending the corpus from constitutional theory to
+fieldable civilian-protection infrastructure. All performance figures in these works
+are **unverified engineering targets**, labeled as such in the documents themselves.
+AEGIS is a civilian-protection safety mesh; clinical AI remains the separate CLAI-OS
+domain. Prior-art anchor for all fourteen patent families: the Defensive Publication.
+
+| # | Work | DOI |
+|---|---|---|
+| 1 | [Defensive Publication v5.0 — Prior Art for 14 Patent Families](aegis-01-defensive-publication-v5.md) | [10.5281/zenodo.23407033](https://doi.org/10.5281/zenodo.23407033) |
+| 2 | [AEGIS-NG v2.0 INFINITE — Master System Document](aegis-02-aegis-ng-master-document.md) | [10.5281/zenodo.23407093](https://doi.org/10.5281/zenodo.23407093) |
+| 3 | [AEGIS-GLOBAL v1.0 UNIVERSAL — Master System Document](aegis-03-aegis-global-master-document.md) | [10.5281/zenodo.23407101](https://doi.org/10.5281/zenodo.23407101) |
+| 4 | [AEGIS-NG Hardware Specification Bundle v1.0 (five nodes)](aegis-04-hardware-specification-bundle.md) | [10.5281/zenodo.23407105](https://doi.org/10.5281/zenodo.23407105) |
+| 5 | [AEGIS-GLOBAL Manufacturing & China Sourcing Specification v1.0](aegis-05-manufacturing-sourcing-specification.md) | [10.5281/zenodo.23407112](https://doi.org/10.5281/zenodo.23407112) |
+| 6 | [AEGIS-GLOBAL Local Engineer Certification Curriculum v1.0](aegis-06-engineer-certification-curriculum.md) | [10.5281/zenodo.23407116](https://doi.org/10.5281/zenodo.23407116) |
+
 ## Reading paths
 
 - **Evaluating the corpus's integrity:** start with [Evidence Annex I](evidence-annex-1.md),
@@ -81,6 +99,12 @@ honest-absence doctrine.
 - **Clinical deployment:** Papers [6](paper-06-objective-transition.md),
   [7](paper-07-survivability.md), [8](paper-08-resource-constrained-intelligence.md),
   [10](paper-10-domain-modules.md), then [Blueprint Nº 2](blueprint-02-falsifiable-clinic.md).
+- **Civilian protection (AEGIS):** start with the [AEGIS-NG Master Document](aegis-02-aegis-ng-master-document.md),
+  generalize with [AEGIS-GLOBAL](aegis-03-aegis-global-master-document.md), then the build path:
+  [Hardware Bundle](aegis-04-hardware-specification-bundle.md) →
+  [Manufacturing & Sourcing](aegis-05-manufacturing-sourcing-specification.md) →
+  [Certification Curriculum](aegis-06-engineer-certification-curriculum.md), all anchored by
+  [Defensive Publication v5.0](aegis-01-defensive-publication-v5.md).
 - **Institutional governance:** [Blueprint Nº 1](blueprint-01-legitimacy-ledger.md),
   [Blueprint Nº 3](blueprint-03-registered-frontier.md), and the real-data outcome in
   [Evidence Annex I](evidence-annex-1.md).
