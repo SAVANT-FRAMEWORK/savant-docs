@@ -8,7 +8,7 @@ description: Universal sovereign civilian-protection architecture — blueprint,
 **Author:** Dr. Christabel Odeta — SAVANT / CLAI-OS / AEGIS-GLOBAL · **Version 1.0 · October 2026**
 **Classification:** C0 INFORMATIONAL — confers no clinical, legal, financial, or safety authority.
 
-DOI: [10.5281/zenodo.23407101](https://doi.org/10.5281/zenodo.23407101) · License: CC-BY-4.0 · [Full record (Zenodo)](https://doi.org/10.5281/zenodo.23407101)
+DOI: [10.5281/zenodo.23409888](https://doi.org/10.5281/zenodo.23409888) · License: CC-BY-4.0 · [Full record (Zenodo)](https://doi.org/10.5281/zenodo.23409888)
 
 ## Abstract
 
@@ -41,8 +41,8 @@ This is the generalization step: the Nigeria-proven architecture abstracted into
   title     = {AEGIS-GLOBAL v1.0 UNIVERSAL — Universal Sovereign Civilian Protection Architecture: Master System Document},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23407101},
-  url       = {https://doi.org/10.5281/zenodo.23407101}
+  doi       = {10.5281/zenodo.23409888},
+  url       = {https://doi.org/10.5281/zenodo.23409888}
 }
 ```
 
