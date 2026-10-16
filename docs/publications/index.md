@@ -83,8 +83,8 @@ domain. Prior-art anchor for all fourteen patent families: the Defensive Publica
 |---|---|---|
 | 1 | [Defensive Publication v5.0 — Prior Art for 14 Patent Families](aegis-01-defensive-publication-v5.md) | [10.5281/zenodo.23407033](https://doi.org/10.5281/zenodo.23407033) |
 | 2 | [AEGIS-NG v2.0 INFINITE — Master System Document](aegis-02-aegis-ng-master-document.md) | [10.5281/zenodo.23407093](https://doi.org/10.5281/zenodo.23407093) |
-| 3 | [AEGIS-GLOBAL v1.0 UNIVERSAL — Master System Document](aegis-03-aegis-global-master-document.md) | [10.5281/zenodo.23407101](https://doi.org/10.5281/zenodo.23407101) |
-| 4 | [AEGIS-NG Hardware Specification Bundle v1.0 (five nodes)](aegis-04-hardware-specification-bundle.md) | [10.5281/zenodo.23407105](https://doi.org/10.5281/zenodo.23407105) |
+| 3 | [AEGIS-GLOBAL v1.0 UNIVERSAL — Master System Document](aegis-03-aegis-global-master-document.md) | [10.5281/zenodo.23409888](https://doi.org/10.5281/zenodo.23409888) |
+| 4 | [AEGIS-NG Hardware Specification Bundle v1.0 (five nodes)](aegis-04-hardware-specification-bundle.md) | [10.5281/zenodo.23409950](https://doi.org/10.5281/zenodo.23409950) |
 | 5 | [AEGIS-GLOBAL Manufacturing & China Sourcing Specification v1.0](aegis-05-manufacturing-sourcing-specification.md) | [10.5281/zenodo.23407112](https://doi.org/10.5281/zenodo.23407112) |
 | 6 | [AEGIS-GLOBAL Local Engineer Certification Curriculum v1.0](aegis-06-engineer-certification-curriculum.md) | [10.5281/zenodo.23407116](https://doi.org/10.5281/zenodo.23407116) |
 
